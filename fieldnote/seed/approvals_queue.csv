@@ -1,0 +1,61 @@
+approval_id,project_id,proposed_change,source,confidence,review_status
+A0001,PRJ003,Update due date for T00200 to 2026-03-24,chat_summary,Low,Approved
+A0002,PRJ006,Update due date for T00550 to 2026-04-10,email_thread,Medium,Rejected
+A0003,PRJ006,Create new task linked to T00492,meeting_notes,Medium,Pending
+A0004,PRJ001,Assign owner for T00071 to Mei Kaur,email_thread,Medium,Rejected
+A0005,PRJ002,Create new task linked to T00103,chat_summary,Medium,Pending
+A0006,PRJ006,Update due date for T00531 to 2026-04-08,chat_summary,Low,Pending
+A0007,PRJ006,Assign owner for T00556 to Maya Tan,chat_summary,Medium,Pending
+A0008,PRJ002,Assign owner for T00151 to Ivy Santos,email_thread,Medium,Pending
+A0009,PRJ005,Mark T00420 as Blocked (awaiting client feedback),meeting_notes,Low,Rejected
+A0010,PRJ005,Create new task linked to T00455,email_thread,Medium,Approved
+A0011,PRJ005,Create new task linked to T00431,chat_summary,Medium,Approved
+A0012,PRJ001,Assign owner for T00002 to Chloe Rahman,meeting_notes,Low,Pending
+A0013,PRJ003,Create new task linked to T00603,email_thread,Medium,Pending
+A0014,PRJ004,Create new task linked to T00293,email_thread,Medium,Pending
+A0015,PRJ002,Create new task linked to T00111,chat_summary,Low,Pending
+A0016,PRJ001,Create new task linked to T00025,meeting_notes,Medium,Pending
+A0017,PRJ002,Create new task linked to T00175,chat_summary,Low,Rejected
+A0018,PRJ003,Mark T00235 as Blocked (awaiting client feedback),meeting_notes,Low,Pending
+A0019,PRJ004,Update due date for T00329 to 2026-03-26,email_thread,Low,Rejected
+A0020,PRJ003,Create new task linked to T00227,chat_summary,Low,Pending
+A0021,PRJ005,Assign owner for T00416 to Maya Singh,meeting_notes,Medium,Approved
+A0022,PRJ005,Update due date for T00410 to 2026-04-11,email_thread,Low,Pending
+A0023,PRJ002,Mark T00161 as Blocked (awaiting client feedback),meeting_notes,Medium,Approved
+A0024,PRJ005,Update due date for T00388 to 2026-04-06,meeting_notes,Medium,Approved
+A0025,PRJ002,Assign owner for T00142 to Nadia Lee,chat_summary,Low,Approved
+A0026,PRJ005,Mark T00471 as Blocked (awaiting client feedback),meeting_notes,Low,Rejected
+A0027,PRJ004,Assign owner for T00354 to Nadia Lee,chat_summary,Medium,Pending
+A0028,PRJ001,Update due date for T00584 to 2026-04-12,chat_summary,Medium,Pending
+A0029,PRJ005,Update due date for T00407 to 2026-04-21,meeting_notes,Low,Pending
+A0030,PRJ001,Mark T00048 as Blocked (awaiting client feedback),chat_summary,Low,Approved
+A0031,PRJ002,Assign owner for T00188 to Farah Hughes,email_thread,Medium,Pending
+A0032,PRJ006,Update due date for T00568 to 2026-03-18,email_thread,Medium,Rejected
+A0033,PRJ006,Create new task linked to T00490,chat_summary,Low,Rejected
+A0034,PRJ005,Mark T00450 as Blocked (awaiting client feedback),chat_summary,Medium,Rejected
+A0035,PRJ006,Create new task linked to T00501,email_thread,Low,Pending
+A0036,PRJ005,Update due date for T00605 to 2026-04-14,meeting_notes,Low,Pending
+A0037,PRJ003,Assign owner for T00280 to Lina Khan,email_thread,Low,Approved
+A0038,PRJ004,Update due date for T00304 to 2026-04-20,chat_summary,Low,Approved
+A0039,PRJ006,Assign owner for T00486 to Farah Hughes,email_thread,Medium,Approved
+A0040,PRJ001,Assign owner for T00063 to Nadia Lee,email_thread,Low,Approved
+A0041,PRJ004,Update due date for T00292 to 2026-04-11,chat_summary,Low,Pending
+A0042,PRJ003,Assign owner for T00236 to Maya Tan,chat_summary,Medium,Approved
+A0043,PRJ003,Create new task linked to T00197,email_thread,Low,Rejected
+A0044,PRJ004,Mark T00291 as Blocked (awaiting client feedback),chat_summary,Low,Pending
+A0045,PRJ001,Create new task linked to T00076,chat_summary,Low,Pending
+A0046,PRJ004,Mark T00307 as Blocked (awaiting client feedback),meeting_notes,Low,Rejected
+A0047,PRJ005,Update due date for T00588 to 2026-04-12,meeting_notes,Low,Pending
+A0048,PRJ002,Update due date for T00172 to 2026-03-14,email_thread,Low,Pending
+A0049,PRJ004,Assign owner for T00305 to Chloe Goh,email_thread,Medium,Pending
+A0050,PRJ003,Assign owner for T00224 to Aisha Patel,meeting_notes,Low,Pending
+A0051,PRJ005,Mark T00412 as Blocked (awaiting client feedback),chat_summary,Medium,Pending
+A0052,PRJ003,Assign owner for T00193 to Maya Ali,email_thread,Low,Pending
+A0053,PRJ002,Create new task linked to T00137,email_thread,Low,Rejected
+A0054,PRJ001,Update due date for T00031 to 2026-04-14,email_thread,Medium,Rejected
+A0055,PRJ004,Create new task linked to T00366,email_thread,Medium,Approved
+A0056,PRJ004,Update due date for T00350 to 2026-04-21,email_thread,Low,Approved
+A0057,PRJ001,Update due date for T00062 to 2026-04-15,chat_summary,Medium,Approved
+A0058,PRJ006,Assign owner for T00566 to Sofia Santos,email_thread,Medium,Rejected
+A0059,PRJ002,Update due date for T00107 to 2026-04-06,email_thread,Medium,Approved
+A0060,PRJ002,Assign owner for T00129 to Sofia Wong,meeting_notes,Medium,Pending

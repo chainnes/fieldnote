@@ -1,0 +1,1073 @@
+email_id,project_id,sent_datetime,from,to,subject,body
+E00001,PRJ001,2026-04-05T11:00:00,anika.chen16@example.org,mei.rahman13@example.org,Schedule update + next steps,"Team,
+
+We need to add a task for Gantt refresh and target 2026-04-15.
+Owner suggestion: Chloe Lee.
+
+-Anika Chen"
+E00002,PRJ001,2026-04-12T11:00:00,mei.rahman13@example.org,chloe.ng14@example.org;sofia.singh11@example.org;anika.chen16@example.org,Blocker update,"Hi team,
+
+Following our discussion, please Sofia Singh update the client presentation by 2026-04-16.
+Also, log the decision in the change register.
+
+Thanks,
+Mei Rahman"
+E00003,PRJ001,2026-04-12T08:00:00,sofia.singh11@example.org,rina.ali18@example.org;lina.singh9@example.org,Blocker update,"Hello all,
+
+Quick update: dates shifted due to dependency.
+Can someone confirm who owns the coordination model??
+
+Regards,
+Sofia Singh"
+E00004,PRJ001,2026-03-03T11:00:00,chloe.ng14@example.org,chloe.ng14@example.org,Clarification needed: owner/date,"Team,
+
+We need to add a task for client presentation and target 2026-03-13.
+Owner suggestion: Chloe Ng.
+
+-Chloe Ng"
+E00005,PRJ001,2026-03-09T08:00:00,mei.rahman13@example.org,lina.ong4@example.org;chloe.ng14@example.org,New task request,"Hi team,
+
+Following our discussion, please Farah Singh update the RFI log update by 2026-03-12.
+Also, highlight any blockers.
+
+Thanks,
+Mei Rahman"
+E00006,PRJ001,2026-04-01T13:00:00,maya.wong7@example.org,lina.singh9@example.org,Clarification needed: owner/date,"Team,
+
+We need to add a task for RFI log update and target 2026-04-06.
+Owner suggestion: Chloe Lee.
+
+-Maya Wong"
+E00007,PRJ001,2026-04-14T13:00:00,farah.singh15@example.org,sofia.singh11@example.org;mei.rahman13@example.org;anika.chen16@example.org,Re: Action items from last meeting,"Team,
+
+We need to add a task for Gantt refresh and target 2026-04-18.
+Owner suggestion: Lina Tan.
+
+-Farah Singh"
+E00008,PRJ001,2026-03-09T13:00:00,mei.rahman13@example.org,lina.singh9@example.org,Blocker update,"Hi team,
+
+Following our discussion, please Anika Chen update the Gantt refresh by 2026-03-18.
+Also, ensure tracker reflects latest dates.
+
+Thanks,
+Mei Rahman"
+E00009,PRJ001,2026-03-14T17:00:00,anika.chen16@example.org,grace.kaur3@example.org;lina.tan10@example.org;sofia.singh11@example.org,Blocker update,"Hello all,
+
+Quick update: task is now blocked pending client feedback.
+Can someone confirm if we should mark this as high priority??
+
+Regards,
+Anika Chen"
+E00010,PRJ001,2026-03-22T11:00:00,grace.santos6@example.org,anika.chen16@example.org,Schedule update + next steps,"Hello all,
+
+Quick update: task is now blocked pending client feedback.
+Can someone confirm if we should mark this as high priority??
+
+Regards,
+Grace Santos"
+E00011,PRJ001,2026-03-05T17:00:00,rina.ali18@example.org,farah.singh15@example.org;maya.wong7@example.org;lina.ong4@example.org,New task request,"Team,
+
+We need to add a task for interface matrix and target 2026-03-12.
+Owner suggestion: Aisha Ong.
+
+-Rina Ali"
+E00012,PRJ001,2026-03-30T17:00:00,chloe.lee17@example.org,lina.singh9@example.org,Schedule update + next steps,"Hi team,
+
+Following our discussion, please Lina Ong update the client presentation by 2026-04-11.
+Also, highlight any blockers.
+
+Thanks,
+Chloe Lee"
+E00013,PRJ001,2026-03-09T17:00:00,anika.chen16@example.org,lina.singh9@example.org;ivy.santos12@example.org,Re: Action items from last meeting,"Hello all,
+
+Quick update: dates shifted due to dependency.
+Can someone confirm who owns the coordination model??
+
+Regards,
+Anika Chen"
+E00014,PRJ001,2026-03-25T08:00:00,aisha.kaur5@example.org,lina.tan10@example.org;sofia.singh11@example.org,New task request,"Hi team,
+
+Following our discussion, please Grace Santos update the client presentation by 2026-04-04.
+Also, log the decision in the change register.
+
+Thanks,
+Aisha Kaur"
+E00015,PRJ001,2026-03-30T08:00:00,lina.tan10@example.org,ivy.santos12@example.org;rina.ali18@example.org,New task request,"Hi team,
+
+Following our discussion, please Grace Santos update the coordination model upload by 2026-04-09.
+Also, log the decision in the change register.
+
+Thanks,
+Lina Tan"
+E00016,PRJ001,2026-03-20T13:00:00,ivy.chung8@example.org,grace.kaur3@example.org;chloe.ng14@example.org;sofia.ong1@example.org,Schedule update + next steps,"Hi team,
+
+Following our discussion, please Maya Wong update the client presentation by 2026-03-23.
+Also, highlight any blockers.
+
+Thanks,
+Ivy Chung"
+E00017,PRJ001,2026-03-16T08:00:00,lina.tan10@example.org,maya.wong7@example.org,Blocker update,"Hello all,
+
+Quick update: task is now blocked pending client feedback.
+Can someone confirm whether the due date is firm??
+
+Regards,
+Lina Tan"
+E00018,PRJ001,2026-04-06T08:00:00,chloe.lee17@example.org,ivy.santos12@example.org;grace.santos6@example.org,Re: Action items from last meeting,"Hi team,
+
+Following our discussion, please Grace Santos update the client presentation by 2026-04-11.
+Also, ensure tracker reflects latest dates.
+
+Thanks,
+Chloe Lee"
+E00019,PRJ001,2026-03-18T13:00:00,mei.rahman13@example.org,sofia.ong1@example.org;grace.kaur3@example.org,Blocker update,"Hello all,
+
+Quick update: task is now blocked pending client feedback.
+Can someone confirm whether the due date is firm??
+
+Regards,
+Mei Rahman"
+E00020,PRJ001,2026-04-12T08:00:00,sofia.ong1@example.org,chloe.ng14@example.org,Blocker update,"Hello all,
+
+Quick update: dates shifted due to dependency.
+Can someone confirm if we should mark this as high priority??
+
+Regards,
+Sofia Ong"
+E00021,PRJ001,2026-04-05T11:00:00,ivy.santos12@example.org,lina.singh9@example.org;aisha.kaur5@example.org,Schedule update + next steps,"Hi team,
+
+Following our discussion, please Aisha Kaur update the coordination model upload by 2026-04-09.
+Also, ensure tracker reflects latest dates.
+
+Thanks,
+Ivy Santos"
+E00022,PRJ001,2026-03-20T08:00:00,rina.ali18@example.org,chloe.ng14@example.org;farah.singh15@example.org,Blocker update,"Hi team,
+
+Following our discussion, please Ivy Chung update the Gantt refresh by 2026-03-22.
+Also, log the decision in the change register.
+
+Thanks,
+Rina Ali"
+E00023,PRJ001,2026-03-16T13:00:00,ivy.chung8@example.org,anika.chen16@example.org,Blocker update,"Team,
+
+We need to add a task for interface matrix and target 2026-03-24.
+Owner suggestion: Sofia Singh.
+
+-Ivy Chung"
+E00024,PRJ001,2026-03-04T17:00:00,chloe.lee17@example.org,aisha.ong2@example.org,Blocker update,"Hi team,
+
+Following our discussion, please Grace Kaur update the coordination model upload by 2026-03-09.
+Also, log the decision in the change register.
+
+Thanks,
+Chloe Lee"
+E00025,PRJ001,2026-03-22T08:00:00,chloe.ng14@example.org,grace.kaur3@example.org;chloe.lee17@example.org,New task request,"Hello all,
+
+Quick update: dates shifted due to dependency.
+Can someone confirm whether the due date is firm??
+
+Regards,
+Chloe Ng"
+E00026,PRJ001,2026-03-07T17:00:00,grace.santos6@example.org,aisha.ong2@example.org;anika.chen16@example.org;lina.ong4@example.org,Schedule update + next steps,"Hi team,
+
+Following our discussion, please Chloe Lee update the Gantt refresh by 2026-03-13.
+Also, ensure tracker reflects latest dates.
+
+Thanks,
+Grace Santos"
+E00027,PRJ001,2026-04-03T11:00:00,chloe.lee17@example.org,grace.santos6@example.org;ivy.chung8@example.org,Schedule update + next steps,"Hi team,
+
+Following our discussion, please Farah Singh update the interface matrix by 2026-04-09.
+Also, ensure tracker reflects latest dates.
+
+Thanks,
+Chloe Lee"
+E00028,PRJ001,2026-04-14T11:00:00,mei.rahman13@example.org,maya.wong7@example.org,New task request,"Hello all,
+
+Quick update: dates shifted due to dependency.
+Can someone confirm who owns the coordination model??
+
+Regards,
+Mei Rahman"
+E00029,PRJ001,2026-04-12T13:00:00,ivy.chung8@example.org,mei.rahman13@example.org,New task request,"Team,
+
+We need to add a task for interface matrix and target 2026-04-15.
+Owner suggestion: Aisha Kaur.
+
+-Ivy Chung"
+E00030,PRJ001,2026-03-13T13:00:00,lina.ong4@example.org,chloe.lee17@example.org;anika.chen16@example.org,Clarification needed: owner/date,"Hi team,
+
+Following our discussion, please Anika Chen update the coordination model upload by 2026-03-16.
+Also, highlight any blockers.
+
+Thanks,
+Lina Ong"
+E00031,PRJ001,2026-04-07T17:00:00,aisha.kaur5@example.org,grace.kaur3@example.org,New task request,"Team,
+
+We need to add a task for interface matrix and target 2026-04-11.
+Owner suggestion: Sofia Ong.
+
+-Aisha Kaur"
+E00032,PRJ001,2026-03-03T08:00:00,lina.ong4@example.org,ivy.chung8@example.org;aisha.ong2@example.org,Schedule update + next steps,"Hello all,
+
+Quick update: we are ready for review.
+Can someone confirm whether the due date is firm??
+
+Regards,
+Lina Ong"
+E00033,PRJ001,2026-04-15T13:00:00,grace.santos6@example.org,farah.singh15@example.org;grace.santos6@example.org,Re: Action items from last meeting,"Team,
+
+We need to add a task for coordination model upload and target 2026-04-18.
+Owner suggestion: Rina Ali.
+
+-Grace Santos"
+E00034,PRJ001,2026-03-10T13:00:00,lina.ong4@example.org,mei.rahman13@example.org,Re: Action items from last meeting,"Hello all,
+
+Quick update: dates shifted due to dependency.
+Can someone confirm who owns the coordination model??
+
+Regards,
+Lina Ong"
+E00035,PRJ001,2026-04-07T13:00:00,rina.ali18@example.org,farah.singh15@example.org;maya.wong7@example.org;lina.tan10@example.org,Blocker update,"Team,
+
+We need to add a task for coordination model upload and target 2026-04-16.
+Owner suggestion: Sofia Singh.
+
+-Rina Ali"
+E00036,PRJ001,2026-04-05T11:00:00,lina.singh9@example.org,chloe.lee17@example.org;aisha.kaur5@example.org;sofia.ong1@example.org,New task request,"Hello all,
+
+Quick update: we are ready for review.
+Can someone confirm whether the due date is firm??
+
+Regards,
+Lina Singh"
+E00037,PRJ001,2026-03-08T17:00:00,ivy.santos12@example.org,anika.chen16@example.org;ivy.chung8@example.org;mei.rahman13@example.org,Blocker update,"Hello all,
+
+Quick update: task is now blocked pending client feedback.
+Can someone confirm whether the due date is firm??
+
+Regards,
+Ivy Santos"
+E00038,PRJ001,2026-03-21T11:00:00,farah.singh15@example.org,lina.tan10@example.org;farah.singh15@example.org,Clarification needed: owner/date,"Team,
+
+We need to add a task for Gantt refresh and target 2026-03-28.
+Owner suggestion: Maya Wong.
+
+-Farah Singh"
+E00039,PRJ001,2026-04-13T13:00:00,ivy.santos12@example.org,sofia.ong1@example.org;lina.singh9@example.org;aisha.ong2@example.org,Clarification needed: owner/date,"Team,
+
+We need to add a task for RFI log update and target 2026-04-21.
+Owner suggestion: Aisha Ong.
+
+-Ivy Santos"
+E00040,PRJ001,2026-03-20T11:00:00,sofia.singh11@example.org,anika.chen16@example.org;lina.ong4@example.org,Schedule update + next steps,"Hi team,
+
+Following our discussion, please Ivy Santos update the interface matrix by 2026-03-23.
+Also, ensure tracker reflects latest dates.
+
+Thanks,
+Sofia Singh"
+E00041,PRJ002,2026-03-08T11:00:00,lina.ong4@example.org,aisha.kaur5@example.org,Schedule update + next steps,"Hello all,
+
+Quick update: dates shifted due to dependency.
+Can someone confirm who owns the coordination model??
+
+Regards,
+Lina Ong"
+E00042,PRJ002,2026-03-29T17:00:00,aisha.ong2@example.org,grace.santos6@example.org;aisha.ong2@example.org;rina.ali18@example.org,New task request,"Team,
+
+We need to add a task for Gantt refresh and target 2026-04-01.
+Owner suggestion: Farah Singh.
+
+-Aisha Ong"
+E00043,PRJ002,2026-03-27T08:00:00,chloe.ng14@example.org,aisha.kaur5@example.org,Re: Action items from last meeting,"Hello all,
+
+Quick update: dates shifted due to dependency.
+Can someone confirm if we should mark this as high priority??
+
+Regards,
+Chloe Ng"
+E00044,PRJ002,2026-03-27T17:00:00,aisha.ong2@example.org,chloe.lee17@example.org;sofia.ong1@example.org;sofia.singh11@example.org,Re: Action items from last meeting,"Hi team,
+
+Following our discussion, please Maya Wong update the client presentation by 2026-04-04.
+Also, ensure tracker reflects latest dates.
+
+Thanks,
+Aisha Ong"
+E00045,PRJ002,2026-03-07T08:00:00,chloe.ng14@example.org,anika.chen16@example.org;ivy.santos12@example.org,Re: Action items from last meeting,"Hello all,
+
+Quick update: dates shifted due to dependency.
+Can someone confirm if we should mark this as high priority??
+
+Regards,
+Chloe Ng"
+E00046,PRJ002,2026-03-27T08:00:00,anika.chen16@example.org,chloe.lee17@example.org;mei.rahman13@example.org;lina.ong4@example.org,New task request,"Team,
+
+We need to add a task for Gantt refresh and target 2026-04-04.
+Owner suggestion: Lina Ong.
+
+-Anika Chen"
+E00047,PRJ002,2026-04-08T08:00:00,lina.ong4@example.org,anika.chen16@example.org;lina.tan10@example.org;aisha.ong2@example.org,Blocker update,"Hi team,
+
+Following our discussion, please Lina Singh update the interface matrix by 2026-04-20.
+Also, highlight any blockers.
+
+Thanks,
+Lina Ong"
+E00048,PRJ002,2026-03-23T17:00:00,mei.rahman13@example.org,lina.tan10@example.org,Blocker update,"Team,
+
+We need to add a task for client presentation and target 2026-03-25.
+Owner suggestion: Sofia Singh.
+
+-Mei Rahman"
+E00049,PRJ002,2026-03-26T08:00:00,chloe.ng14@example.org,rina.ali18@example.org;aisha.kaur5@example.org,Blocker update,"Team,
+
+We need to add a task for interface matrix and target 2026-04-01.
+Owner suggestion: Rina Ali.
+
+-Chloe Ng"
+E00050,PRJ002,2026-03-01T11:00:00,sofia.singh11@example.org,aisha.ong2@example.org;ivy.chung8@example.org;sofia.ong1@example.org,Schedule update + next steps,"Team,
+
+We need to add a task for RFI log update and target 2026-03-06.
+Owner suggestion: Mei Rahman.
+
+-Sofia Singh"
+E00051,PRJ002,2026-04-03T13:00:00,aisha.kaur5@example.org,ivy.chung8@example.org,New task request,"Team,
+
+We need to add a task for client presentation and target 2026-04-11.
+Owner suggestion: Ivy Santos.
+
+-Aisha Kaur"
+E00052,PRJ002,2026-03-19T13:00:00,sofia.ong1@example.org,lina.singh9@example.org;anika.chen16@example.org;aisha.ong2@example.org,Re: Action items from last meeting,"Hi team,
+
+Following our discussion, please Mei Rahman update the coordination model upload by 2026-03-21.
+Also, highlight any blockers.
+
+Thanks,
+Sofia Ong"
+E00053,PRJ002,2026-03-21T13:00:00,grace.kaur3@example.org,mei.rahman13@example.org,Schedule update + next steps,"Team,
+
+We need to add a task for RFI log update and target 2026-03-31.
+Owner suggestion: Aisha Ong.
+
+-Grace Kaur"
+E00054,PRJ002,2026-03-10T17:00:00,lina.ong4@example.org,aisha.kaur5@example.org,Clarification needed: owner/date,"Hello all,
+
+Quick update: task is now blocked pending client feedback.
+Can someone confirm who owns the coordination model??
+
+Regards,
+Lina Ong"
+E00055,PRJ002,2026-04-10T13:00:00,aisha.kaur5@example.org,sofia.singh11@example.org,New task request,"Team,
+
+We need to add a task for coordination model upload and target 2026-04-22.
+Owner suggestion: Farah Singh.
+
+-Aisha Kaur"
+E00056,PRJ002,2026-03-12T11:00:00,ivy.santos12@example.org,ivy.chung8@example.org,Re: Action items from last meeting,"Hi team,
+
+Following our discussion, please Lina Tan update the Gantt refresh by 2026-03-17.
+Also, ensure tracker reflects latest dates.
+
+Thanks,
+Ivy Santos"
+E00057,PRJ002,2026-03-19T17:00:00,rina.ali18@example.org,farah.singh15@example.org,Re: Action items from last meeting,"Hi team,
+
+Following our discussion, please Mei Rahman update the Gantt refresh by 2026-03-26.
+Also, ensure tracker reflects latest dates.
+
+Thanks,
+Rina Ali"
+E00058,PRJ002,2026-03-01T08:00:00,mei.rahman13@example.org,aisha.kaur5@example.org,Schedule update + next steps,"Hi team,
+
+Following our discussion, please Aisha Ong update the interface matrix by 2026-03-13.
+Also, log the decision in the change register.
+
+Thanks,
+Mei Rahman"
+E00059,PRJ002,2026-03-02T17:00:00,sofia.singh11@example.org,ivy.chung8@example.org,Blocker update,"Hi team,
+
+Following our discussion, please Farah Singh update the interface matrix by 2026-03-09.
+Also, highlight any blockers.
+
+Thanks,
+Sofia Singh"
+E00060,PRJ002,2026-03-25T08:00:00,lina.tan10@example.org,lina.tan10@example.org;rina.ali18@example.org,Re: Action items from last meeting,"Team,
+
+We need to add a task for coordination model upload and target 2026-04-02.
+Owner suggestion: Sofia Singh.
+
+-Lina Tan"
+E00061,PRJ002,2026-03-31T13:00:00,mei.rahman13@example.org,grace.kaur3@example.org;lina.ong4@example.org;farah.singh15@example.org,Re: Action items from last meeting,"Hello all,
+
+Quick update: dates shifted due to dependency.
+Can someone confirm whether the due date is firm??
+
+Regards,
+Mei Rahman"
+E00062,PRJ002,2026-03-07T11:00:00,chloe.lee17@example.org,grace.santos6@example.org;chloe.lee17@example.org;chloe.ng14@example.org,Schedule update + next steps,"Hi team,
+
+Following our discussion, please Mei Rahman update the Gantt refresh by 2026-03-16.
+Also, log the decision in the change register.
+
+Thanks,
+Chloe Lee"
+E00063,PRJ002,2026-04-05T08:00:00,mei.rahman13@example.org,aisha.kaur5@example.org;lina.tan10@example.org;chloe.ng14@example.org,Blocker update,"Team,
+
+We need to add a task for coordination model upload and target 2026-04-11.
+Owner suggestion: Sofia Singh.
+
+-Mei Rahman"
+E00064,PRJ002,2026-03-31T11:00:00,grace.santos6@example.org,chloe.lee17@example.org;sofia.ong1@example.org,New task request,"Hello all,
+
+Quick update: dates shifted due to dependency.
+Can someone confirm who owns the coordination model??
+
+Regards,
+Grace Santos"
+E00065,PRJ002,2026-03-02T17:00:00,chloe.ng14@example.org,maya.wong7@example.org;grace.kaur3@example.org;chloe.lee17@example.org,Schedule update + next steps,"Team,
+
+We need to add a task for RFI log update and target 2026-03-10.
+Owner suggestion: Maya Wong.
+
+-Chloe Ng"
+E00066,PRJ002,2026-04-13T17:00:00,chloe.ng14@example.org,mei.rahman13@example.org;lina.ong4@example.org,Schedule update + next steps,"Hello all,
+
+Quick update: we are ready for review.
+Can someone confirm if we should mark this as high priority??
+
+Regards,
+Chloe Ng"
+E00067,PRJ002,2026-03-27T13:00:00,chloe.ng14@example.org,grace.santos6@example.org;ivy.chung8@example.org;chloe.ng14@example.org,Clarification needed: owner/date,"Hi team,
+
+Following our discussion, please Sofia Singh update the RFI log update by 2026-04-04.
+Also, log the decision in the change register.
+
+Thanks,
+Chloe Ng"
+E00068,PRJ002,2026-04-01T11:00:00,aisha.ong2@example.org,aisha.ong2@example.org,Clarification needed: owner/date,"Hello all,
+
+Quick update: dates shifted due to dependency.
+Can someone confirm whether the due date is firm??
+
+Regards,
+Aisha Ong"
+E00069,PRJ002,2026-04-04T17:00:00,rina.ali18@example.org,aisha.ong2@example.org,Re: Action items from last meeting,"Hi team,
+
+Following our discussion, please Maya Wong update the coordination model upload by 2026-04-16.
+Also, highlight any blockers.
+
+Thanks,
+Rina Ali"
+E00070,PRJ002,2026-04-03T13:00:00,ivy.santos12@example.org,aisha.kaur5@example.org,Blocker update,"Hi team,
+
+Following our discussion, please Chloe Ng update the RFI log update by 2026-04-15.
+Also, ensure tracker reflects latest dates.
+
+Thanks,
+Ivy Santos"
+E00071,PRJ002,2026-04-01T13:00:00,aisha.ong2@example.org,mei.rahman13@example.org;lina.singh9@example.org;ivy.santos12@example.org,New task request,"Hello all,
+
+Quick update: task is now blocked pending client feedback.
+Can someone confirm who owns the coordination model??
+
+Regards,
+Aisha Ong"
+E00072,PRJ002,2026-04-15T13:00:00,aisha.kaur5@example.org,mei.rahman13@example.org;grace.kaur3@example.org;maya.wong7@example.org,Clarification needed: owner/date,"Hi team,
+
+Following our discussion, please Lina Singh update the RFI log update by 2026-04-27.
+Also, highlight any blockers.
+
+Thanks,
+Aisha Kaur"
+E00073,PRJ002,2026-04-05T13:00:00,mei.rahman13@example.org,sofia.singh11@example.org,Re: Action items from last meeting,"Hello all,
+
+Quick update: we are ready for review.
+Can someone confirm whether the due date is firm??
+
+Regards,
+Mei Rahman"
+E00074,PRJ002,2026-04-01T11:00:00,ivy.chung8@example.org,maya.wong7@example.org;ivy.santos12@example.org,Blocker update,"Hi team,
+
+Following our discussion, please Ivy Santos update the interface matrix by 2026-04-12.
+Also, highlight any blockers.
+
+Thanks,
+Ivy Chung"
+E00075,PRJ002,2026-04-06T08:00:00,rina.ali18@example.org,mei.rahman13@example.org;sofia.singh11@example.org;anika.chen16@example.org,Schedule update + next steps,"Hi team,
+
+Following our discussion, please Rina Ali update the interface matrix by 2026-04-18.
+Also, highlight any blockers.
+
+Thanks,
+Rina Ali"
+E00076,PRJ002,2026-03-31T11:00:00,sofia.singh11@example.org,sofia.ong1@example.org;lina.singh9@example.org,Clarification needed: owner/date,"Hi team,
+
+Following our discussion, please Farah Singh update the coordination model upload by 2026-04-12.
+Also, highlight any blockers.
+
+Thanks,
+Sofia Singh"
+E00077,PRJ002,2026-03-19T17:00:00,grace.santos6@example.org,maya.wong7@example.org;lina.tan10@example.org;mei.rahman13@example.org,Clarification needed: owner/date,"Team,
+
+We need to add a task for Gantt refresh and target 2026-03-22.
+Owner suggestion: Lina Tan.
+
+-Grace Santos"
+E00078,PRJ002,2026-03-10T11:00:00,chloe.ng14@example.org,lina.tan10@example.org;lina.ong4@example.org;ivy.santos12@example.org,Blocker update,"Hello all,
+
+Quick update: we are ready for review.
+Can someone confirm whether the due date is firm??
+
+Regards,
+Chloe Ng"
+E00079,PRJ002,2026-04-11T17:00:00,lina.tan10@example.org,rina.ali18@example.org;sofia.singh11@example.org;lina.singh9@example.org,Re: Action items from last meeting,"Hello all,
+
+Quick update: task is now blocked pending client feedback.
+Can someone confirm whether the due date is firm??
+
+Regards,
+Lina Tan"
+E00080,PRJ002,2026-03-22T08:00:00,lina.tan10@example.org,sofia.ong1@example.org;chloe.lee17@example.org,Clarification needed: owner/date,"Hello all,
+
+Quick update: we are ready for review.
+Can someone confirm whether the due date is firm??
+
+Regards,
+Lina Tan"
+E00081,PRJ003,2026-04-01T11:00:00,farah.singh15@example.org,rina.ali18@example.org;lina.ong4@example.org,Blocker update,"Team,
+
+We need to add a task for client presentation and target 2026-04-05.
+Owner suggestion: Sofia Singh.
+
+-Farah Singh"
+E00082,PRJ003,2026-03-16T11:00:00,farah.singh15@example.org,mei.rahman13@example.org;chloe.lee17@example.org;anika.chen16@example.org,New task request,"Hello all,
+
+Quick update: task is now blocked pending client feedback.
+Can someone confirm whether the due date is firm??
+
+Regards,
+Farah Singh"
+E00083,PRJ003,2026-03-05T08:00:00,lina.tan10@example.org,anika.chen16@example.org,Schedule update + next steps,"Team,
+
+We need to add a task for interface matrix and target 2026-03-17.
+Owner suggestion: Farah Singh.
+
+-Lina Tan"
+E00084,PRJ003,2026-03-03T17:00:00,maya.wong7@example.org,chloe.lee17@example.org,Schedule update + next steps,"Team,
+
+We need to add a task for coordination model upload and target 2026-03-10.
+Owner suggestion: Chloe Ng.
+
+-Maya Wong"
+E00085,PRJ003,2026-04-09T11:00:00,rina.ali18@example.org,maya.wong7@example.org;sofia.ong1@example.org,Schedule update + next steps,"Hi team,
+
+Following our discussion, please Aisha Ong update the RFI log update by 2026-04-19.
+Also, ensure tracker reflects latest dates.
+
+Thanks,
+Rina Ali"
+E00086,PRJ003,2026-04-09T08:00:00,sofia.ong1@example.org,chloe.lee17@example.org;chloe.ng14@example.org,New task request,"Hi team,
+
+Following our discussion, please Farah Singh update the RFI log update by 2026-04-11.
+Also, ensure tracker reflects latest dates.
+
+Thanks,
+Sofia Ong"
+E00087,PRJ003,2026-04-13T17:00:00,sofia.singh11@example.org,lina.singh9@example.org;farah.singh15@example.org;sofia.ong1@example.org,Clarification needed: owner/date,"Hi team,
+
+Following our discussion, please Sofia Ong update the RFI log update by 2026-04-20.
+Also, ensure tracker reflects latest dates.
+
+Thanks,
+Sofia Singh"
+E00088,PRJ003,2026-04-03T17:00:00,lina.ong4@example.org,anika.chen16@example.org;grace.kaur3@example.org;lina.ong4@example.org,Clarification needed: owner/date,"Hi team,
+
+Following our discussion, please Grace Kaur update the Gantt refresh by 2026-04-11.
+Also, highlight any blockers.
+
+Thanks,
+Lina Ong"
+E00089,PRJ003,2026-03-26T11:00:00,lina.ong4@example.org,sofia.singh11@example.org;sofia.ong1@example.org;chloe.ng14@example.org,Blocker update,"Hi team,
+
+Following our discussion, please Chloe Lee update the client presentation by 2026-03-30.
+Also, highlight any blockers.
+
+Thanks,
+Lina Ong"
+E00090,PRJ003,2026-03-12T11:00:00,ivy.chung8@example.org,sofia.singh11@example.org,Clarification needed: owner/date,"Team,
+
+We need to add a task for interface matrix and target 2026-03-14.
+Owner suggestion: Ivy Santos.
+
+-Ivy Chung"
+E00091,PRJ003,2026-04-01T11:00:00,lina.tan10@example.org,sofia.ong1@example.org;maya.wong7@example.org;sofia.singh11@example.org,New task request,"Team,
+
+We need to add a task for coordination model upload and target 2026-04-10.
+Owner suggestion: Ivy Chung.
+
+-Lina Tan"
+E00092,PRJ003,2026-03-25T11:00:00,chloe.ng14@example.org,mei.rahman13@example.org;grace.kaur3@example.org;chloe.lee17@example.org,Re: Action items from last meeting,"Team,
+
+We need to add a task for Gantt refresh and target 2026-03-31.
+Owner suggestion: Rina Ali.
+
+-Chloe Ng"
+E00093,PRJ003,2026-03-06T08:00:00,maya.wong7@example.org,aisha.kaur5@example.org,Blocker update,"Hello all,
+
+Quick update: task is now blocked pending client feedback.
+Can someone confirm whether the due date is firm??
+
+Regards,
+Maya Wong"
+E00094,PRJ003,2026-03-10T13:00:00,farah.singh15@example.org,farah.singh15@example.org,Clarification needed: owner/date,"Hi team,
+
+Following our discussion, please Aisha Ong update the client presentation by 2026-03-19.
+Also, log the decision in the change register.
+
+Thanks,
+Farah Singh"
+E00095,PRJ003,2026-03-31T13:00:00,rina.ali18@example.org,sofia.ong1@example.org;aisha.kaur5@example.org,Re: Action items from last meeting,"Hi team,
+
+Following our discussion, please Aisha Kaur update the Gantt refresh by 2026-04-05.
+Also, ensure tracker reflects latest dates.
+
+Thanks,
+Rina Ali"
+E00096,PRJ003,2026-03-01T13:00:00,ivy.santos12@example.org,maya.wong7@example.org;anika.chen16@example.org,Re: Action items from last meeting,"Hello all,
+
+Quick update: task is now blocked pending client feedback.
+Can someone confirm whether the due date is firm??
+
+Regards,
+Ivy Santos"
+E00097,PRJ003,2026-03-24T13:00:00,sofia.singh11@example.org,sofia.ong1@example.org,Blocker update,"Hi team,
+
+Following our discussion, please Anika Chen update the RFI log update by 2026-04-04.
+Also, highlight any blockers.
+
+Thanks,
+Sofia Singh"
+E00098,PRJ003,2026-03-06T17:00:00,farah.singh15@example.org,maya.wong7@example.org;anika.chen16@example.org;aisha.kaur5@example.org,Re: Action items from last meeting,"Hi team,
+
+Following our discussion, please Rina Ali update the client presentation by 2026-03-15.
+Also, ensure tracker reflects latest dates.
+
+Thanks,
+Farah Singh"
+E00099,PRJ003,2026-04-09T11:00:00,mei.rahman13@example.org,grace.kaur3@example.org;sofia.ong1@example.org;maya.wong7@example.org,Blocker update,"Hi team,
+
+Following our discussion, please Lina Ong update the RFI log update by 2026-04-12.
+Also, ensure tracker reflects latest dates.
+
+Thanks,
+Mei Rahman"
+E00100,PRJ003,2026-03-13T17:00:00,lina.singh9@example.org,lina.singh9@example.org,New task request,"Hello all,
+
+Quick update: dates shifted due to dependency.
+Can someone confirm whether the due date is firm??
+
+Regards,
+Lina Singh"
+E00101,PRJ003,2026-03-07T17:00:00,chloe.lee17@example.org,grace.santos6@example.org,Schedule update + next steps,"Hello all,
+
+Quick update: we are ready for review.
+Can someone confirm who owns the coordination model??
+
+Regards,
+Chloe Lee"
+E00102,PRJ003,2026-04-04T11:00:00,maya.wong7@example.org,grace.santos6@example.org,Schedule update + next steps,"Team,
+
+We need to add a task for interface matrix and target 2026-04-07.
+Owner suggestion: Anika Chen.
+
+-Maya Wong"
+E00103,PRJ003,2026-04-12T08:00:00,ivy.chung8@example.org,chloe.lee17@example.org,Re: Action items from last meeting,"Hi team,
+
+Following our discussion, please Lina Ong update the Gantt refresh by 2026-04-24.
+Also, highlight any blockers.
+
+Thanks,
+Ivy Chung"
+E00104,PRJ003,2026-03-07T13:00:00,ivy.chung8@example.org,chloe.ng14@example.org;chloe.lee17@example.org;sofia.singh11@example.org,Clarification needed: owner/date,"Hi team,
+
+Following our discussion, please Chloe Ng update the interface matrix by 2026-03-18.
+Also, highlight any blockers.
+
+Thanks,
+Ivy Chung"
+E00105,PRJ003,2026-04-13T08:00:00,lina.tan10@example.org,maya.wong7@example.org,Schedule update + next steps,"Hi team,
+
+Following our discussion, please Farah Singh update the client presentation by 2026-04-21.
+Also, ensure tracker reflects latest dates.
+
+Thanks,
+Lina Tan"
+E00106,PRJ003,2026-04-15T08:00:00,anika.chen16@example.org,chloe.ng14@example.org;lina.singh9@example.org,Clarification needed: owner/date,"Hello all,
+
+Quick update: task is now blocked pending client feedback.
+Can someone confirm whether the due date is firm??
+
+Regards,
+Anika Chen"
+E00107,PRJ003,2026-03-23T08:00:00,anika.chen16@example.org,rina.ali18@example.org,Clarification needed: owner/date,"Hi team,
+
+Following our discussion, please Anika Chen update the RFI log update by 2026-03-26.
+Also, log the decision in the change register.
+
+Thanks,
+Anika Chen"
+E00108,PRJ003,2026-03-29T17:00:00,ivy.santos12@example.org,chloe.lee17@example.org;lina.singh9@example.org,Blocker update,"Team,
+
+We need to add a task for RFI log update and target 2026-04-06.
+Owner suggestion: Aisha Kaur.
+
+-Ivy Santos"
+E00109,PRJ003,2026-03-06T13:00:00,lina.tan10@example.org,ivy.santos12@example.org,Clarification needed: owner/date,"Hi team,
+
+Following our discussion, please Anika Chen update the RFI log update by 2026-03-14.
+Also, highlight any blockers.
+
+Thanks,
+Lina Tan"
+E00110,PRJ003,2026-03-14T13:00:00,ivy.chung8@example.org,sofia.singh11@example.org;mei.rahman13@example.org,Schedule update + next steps,"Team,
+
+We need to add a task for client presentation and target 2026-03-23.
+Owner suggestion: Chloe Lee.
+
+-Ivy Chung"
+E00111,PRJ003,2026-03-16T13:00:00,aisha.ong2@example.org,aisha.kaur5@example.org;grace.kaur3@example.org;lina.tan10@example.org,Clarification needed: owner/date,"Hello all,
+
+Quick update: dates shifted due to dependency.
+Can someone confirm if we should mark this as high priority??
+
+Regards,
+Aisha Ong"
+E00112,PRJ003,2026-03-13T13:00:00,chloe.lee17@example.org,ivy.chung8@example.org,New task request,"Hi team,
+
+Following our discussion, please Anika Chen update the RFI log update by 2026-03-17.
+Also, highlight any blockers.
+
+Thanks,
+Chloe Lee"
+E00113,PRJ003,2026-03-31T08:00:00,chloe.ng14@example.org,lina.singh9@example.org;grace.kaur3@example.org;lina.ong4@example.org,Re: Action items from last meeting,"Hello all,
+
+Quick update: task is now blocked pending client feedback.
+Can someone confirm whether the due date is firm??
+
+Regards,
+Chloe Ng"
+E00114,PRJ003,2026-03-17T11:00:00,anika.chen16@example.org,aisha.ong2@example.org,Schedule update + next steps,"Hello all,
+
+Quick update: task is now blocked pending client feedback.
+Can someone confirm who owns the coordination model??
+
+Regards,
+Anika Chen"
+E00115,PRJ003,2026-03-18T17:00:00,sofia.ong1@example.org,mei.rahman13@example.org,Clarification needed: owner/date,"Hi team,
+
+Following our discussion, please Lina Tan update the coordination model upload by 2026-03-28.
+Also, ensure tracker reflects latest dates.
+
+Thanks,
+Sofia Ong"
+E00116,PRJ003,2026-03-17T11:00:00,ivy.chung8@example.org,aisha.kaur5@example.org;chloe.lee17@example.org;farah.singh15@example.org,Schedule update + next steps,"Hello all,
+
+Quick update: we are ready for review.
+Can someone confirm if we should mark this as high priority??
+
+Regards,
+Ivy Chung"
+E00117,PRJ003,2026-03-20T13:00:00,aisha.ong2@example.org,farah.singh15@example.org;grace.kaur3@example.org,Schedule update + next steps,"Hi team,
+
+Following our discussion, please Farah Singh update the interface matrix by 2026-03-26.
+Also, ensure tracker reflects latest dates.
+
+Thanks,
+Aisha Ong"
+E00118,PRJ003,2026-03-09T11:00:00,chloe.lee17@example.org,farah.singh15@example.org,Schedule update + next steps,"Hi team,
+
+Following our discussion, please Farah Singh update the Gantt refresh by 2026-03-16.
+Also, log the decision in the change register.
+
+Thanks,
+Chloe Lee"
+E00119,PRJ003,2026-03-12T11:00:00,lina.singh9@example.org,sofia.ong1@example.org;anika.chen16@example.org,Re: Action items from last meeting,"Hi team,
+
+Following our discussion, please Chloe Ng update the Gantt refresh by 2026-03-15.
+Also, ensure tracker reflects latest dates.
+
+Thanks,
+Lina Singh"
+E00120,PRJ003,2026-03-15T11:00:00,aisha.ong2@example.org,grace.kaur3@example.org;rina.ali18@example.org,New task request,"Team,
+
+We need to add a task for client presentation and target 2026-03-22.
+Owner suggestion: Lina Ong.
+
+-Aisha Ong"
+E00121,PRJ004,2026-03-06T13:00:00,lina.tan10@example.org,ivy.santos12@example.org;ivy.chung8@example.org;mei.rahman13@example.org,Blocker update,"Hi team,
+
+Following our discussion, please Aisha Kaur update the client presentation by 2026-03-12.
+Also, ensure tracker reflects latest dates.
+
+Thanks,
+Lina Tan"
+E00122,PRJ004,2026-04-10T13:00:00,grace.kaur3@example.org,sofia.ong1@example.org;anika.chen16@example.org,Blocker update,"Team,
+
+We need to add a task for interface matrix and target 2026-04-20.
+Owner suggestion: Grace Kaur.
+
+-Grace Kaur"
+E00123,PRJ004,2026-04-14T13:00:00,anika.chen16@example.org,grace.santos6@example.org,Schedule update + next steps,"Hello all,
+
+Quick update: task is now blocked pending client feedback.
+Can someone confirm if we should mark this as high priority??
+
+Regards,
+Anika Chen"
+E00124,PRJ004,2026-03-18T08:00:00,lina.ong4@example.org,chloe.lee17@example.org;anika.chen16@example.org;rina.ali18@example.org,Clarification needed: owner/date,"Hi team,
+
+Following our discussion, please Farah Singh update the client presentation by 2026-03-28.
+Also, ensure tracker reflects latest dates.
+
+Thanks,
+Lina Ong"
+E00125,PRJ004,2026-03-20T13:00:00,lina.ong4@example.org,sofia.ong1@example.org;grace.kaur3@example.org,Clarification needed: owner/date,"Hello all,
+
+Quick update: task is now blocked pending client feedback.
+Can someone confirm whether the due date is firm??
+
+Regards,
+Lina Ong"
+E00126,PRJ004,2026-03-21T11:00:00,chloe.lee17@example.org,mei.rahman13@example.org;anika.chen16@example.org;maya.wong7@example.org,Clarification needed: owner/date,"Hi team,
+
+Following our discussion, please Sofia Singh update the interface matrix by 2026-03-25.
+Also, highlight any blockers.
+
+Thanks,
+Chloe Lee"
+E00127,PRJ004,2026-04-02T11:00:00,chloe.lee17@example.org,farah.singh15@example.org,Clarification needed: owner/date,"Hello all,
+
+Quick update: task is now blocked pending client feedback.
+Can someone confirm who owns the coordination model??
+
+Regards,
+Chloe Lee"
+E00128,PRJ004,2026-03-17T17:00:00,aisha.kaur5@example.org,lina.tan10@example.org,Blocker update,"Team,
+
+We need to add a task for interface matrix and target 2026-03-21.
+Owner suggestion: Lina Singh.
+
+-Aisha Kaur"
+E00129,PRJ004,2026-03-29T13:00:00,sofia.ong1@example.org,grace.kaur3@example.org,Re: Action items from last meeting,"Team,
+
+We need to add a task for RFI log update and target 2026-04-06.
+Owner suggestion: Lina Ong.
+
+-Sofia Ong"
+E00130,PRJ004,2026-04-13T11:00:00,sofia.singh11@example.org,grace.kaur3@example.org;aisha.ong2@example.org;rina.ali18@example.org,Blocker update,"Hello all,
+
+Quick update: dates shifted due to dependency.
+Can someone confirm if we should mark this as high priority??
+
+Regards,
+Sofia Singh"
+E00131,PRJ004,2026-04-06T11:00:00,aisha.kaur5@example.org,ivy.chung8@example.org,New task request,"Team,
+
+We need to add a task for Gantt refresh and target 2026-04-08.
+Owner suggestion: Rina Ali.
+
+-Aisha Kaur"
+E00132,PRJ004,2026-03-09T13:00:00,aisha.kaur5@example.org,sofia.singh11@example.org;aisha.ong2@example.org,Blocker update,"Hello all,
+
+Quick update: dates shifted due to dependency.
+Can someone confirm whether the due date is firm??
+
+Regards,
+Aisha Kaur"
+E00133,PRJ004,2026-04-12T17:00:00,sofia.singh11@example.org,lina.ong4@example.org;grace.santos6@example.org;rina.ali18@example.org,Clarification needed: owner/date,"Hello all,
+
+Quick update: task is now blocked pending client feedback.
+Can someone confirm who owns the coordination model??
+
+Regards,
+Sofia Singh"
+E00134,PRJ004,2026-03-18T17:00:00,sofia.singh11@example.org,aisha.kaur5@example.org;farah.singh15@example.org,Clarification needed: owner/date,"Hi team,
+
+Following our discussion, please Grace Santos update the RFI log update by 2026-03-24.
+Also, highlight any blockers.
+
+Thanks,
+Sofia Singh"
+E00135,PRJ004,2026-03-16T11:00:00,ivy.santos12@example.org,rina.ali18@example.org,Clarification needed: owner/date,"Team,
+
+We need to add a task for RFI log update and target 2026-03-22.
+Owner suggestion: Anika Chen.
+
+-Ivy Santos"
+E00136,PRJ004,2026-03-01T13:00:00,anika.chen16@example.org,aisha.kaur5@example.org;lina.ong4@example.org;sofia.singh11@example.org,Re: Action items from last meeting,"Hello all,
+
+Quick update: task is now blocked pending client feedback.
+Can someone confirm if we should mark this as high priority??
+
+Regards,
+Anika Chen"
+E00137,PRJ004,2026-03-16T13:00:00,lina.ong4@example.org,grace.kaur3@example.org;anika.chen16@example.org,Re: Action items from last meeting,"Team,
+
+We need to add a task for Gantt refresh and target 2026-03-23.
+Owner suggestion: Ivy Chung.
+
+-Lina Ong"
+E00138,PRJ004,2026-03-07T17:00:00,aisha.kaur5@example.org,lina.tan10@example.org;anika.chen16@example.org;ivy.chung8@example.org,New task request,"Team,
+
+We need to add a task for interface matrix and target 2026-03-12.
+Owner suggestion: Mei Rahman.
+
+-Aisha Kaur"
+E00139,PRJ004,2026-03-12T08:00:00,sofia.singh11@example.org,chloe.lee17@example.org;maya.wong7@example.org;anika.chen16@example.org,Blocker update,"Hello all,
+
+Quick update: we are ready for review.
+Can someone confirm who owns the coordination model??
+
+Regards,
+Sofia Singh"
+E00140,PRJ004,2026-03-01T17:00:00,chloe.lee17@example.org,aisha.kaur5@example.org;maya.wong7@example.org;aisha.ong2@example.org,New task request,"Team,
+
+We need to add a task for client presentation and target 2026-03-10.
+Owner suggestion: Sofia Ong.
+
+-Chloe Lee"
+E00141,PRJ004,2026-03-28T08:00:00,lina.singh9@example.org,sofia.singh11@example.org;lina.tan10@example.org,Clarification needed: owner/date,"Hello all,
+
+Quick update: task is now blocked pending client feedback.
+Can someone confirm if we should mark this as high priority??
+
+Regards,
+Lina Singh"
+E00142,PRJ004,2026-03-24T13:00:00,grace.santos6@example.org,lina.tan10@example.org;mei.rahman13@example.org;lina.ong4@example.org,Clarification needed: owner/date,"Hello all,
+
+Quick update: dates shifted due to dependency.
+Can someone confirm whether the due date is firm??
+
+Regards,
+Grace Santos"
+E00143,PRJ004,2026-03-27T17:00:00,chloe.lee17@example.org,grace.santos6@example.org;ivy.santos12@example.org,Schedule update + next steps,"Team,
+
+We need to add a task for Gantt refresh and target 2026-03-29.
+Owner suggestion: Maya Wong.
+
+-Chloe Lee"
+E00144,PRJ004,2026-03-31T17:00:00,aisha.kaur5@example.org,chloe.ng14@example.org;ivy.chung8@example.org;chloe.lee17@example.org,Clarification needed: owner/date,"Hello all,
+
+Quick update: task is now blocked pending client feedback.
+Can someone confirm if we should mark this as high priority??
+
+Regards,
+Aisha Kaur"
+E00145,PRJ004,2026-03-17T11:00:00,mei.rahman13@example.org,sofia.ong1@example.org,Re: Action items from last meeting,"Team,
+
+We need to add a task for client presentation and target 2026-03-22.
+Owner suggestion: Aisha Ong.
+
+-Mei Rahman"
+E00146,PRJ004,2026-03-10T08:00:00,ivy.chung8@example.org,grace.santos6@example.org;rina.ali18@example.org;ivy.chung8@example.org,Schedule update + next steps,"Hi team,
+
+Following our discussion, please Rina Ali update the Gantt refresh by 2026-03-12.
+Also, highlight any blockers.
+
+Thanks,
+Ivy Chung"
+E00147,PRJ004,2026-03-12T08:00:00,grace.kaur3@example.org,aisha.kaur5@example.org;grace.kaur3@example.org,Schedule update + next steps,"Hi team,
+
+Following our discussion, please Mei Rahman update the coordination model upload by 2026-03-15.
+Also, highlight any blockers.
+
+Thanks,
+Grace Kaur"
+E00148,PRJ004,2026-04-04T13:00:00,sofia.singh11@example.org,aisha.ong2@example.org;rina.ali18@example.org;lina.ong4@example.org,Blocker update,"Hi team,
+
+Following our discussion, please Maya Wong update the coordination model upload by 2026-04-14.
+Also, log the decision in the change register.
+
+Thanks,
+Sofia Singh"
+E00149,PRJ004,2026-04-14T08:00:00,aisha.kaur5@example.org,aisha.ong2@example.org,Blocker update,"Hi team,
+
+Following our discussion, please Grace Santos update the interface matrix by 2026-04-20.
+Also, highlight any blockers.
+
+Thanks,
+Aisha Kaur"
+E00150,PRJ004,2026-03-13T13:00:00,aisha.ong2@example.org,ivy.santos12@example.org;farah.singh15@example.org,Re: Action items from last meeting,"Hello all,
+
+Quick update: task is now blocked pending client feedback.
+Can someone confirm if we should mark this as high priority??
+
+Regards,
+Aisha Ong"
+E00151,PRJ004,2026-04-11T17:00:00,anika.chen16@example.org,maya.wong7@example.org,Blocker update,"Hi team,
+
+Following our discussion, please Maya Wong update the interface matrix by 2026-04-19.
+Also, log the decision in the change register.
+
+Thanks,
+Anika Chen"
+E00152,PRJ004,2026-03-20T11:00:00,farah.singh15@example.org,chloe.lee17@example.org,Schedule update + next steps,"Hello all,
+
+Quick update: task is now blocked pending client feedback.
+Can someone confirm whether the due date is firm??
+
+Regards,
+Farah Singh"
+E00153,PRJ004,2026-03-11T17:00:00,grace.kaur3@example.org,lina.ong4@example.org;sofia.ong1@example.org,Blocker update,"Team,
+
+We need to add a task for coordination model upload and target 2026-03-19.
+Owner suggestion: Lina Tan.
+
+-Grace Kaur"
+E00154,PRJ004,2026-04-07T11:00:00,aisha.kaur5@example.org,aisha.kaur5@example.org;maya.wong7@example.org;grace.kaur3@example.org,Clarification needed: owner/date,"Hi team,
+
+Following our discussion, please Anika Chen update the client presentation by 2026-04-13.
+Also, log the decision in the change register.
+
+Thanks,
+Aisha Kaur"
+E00155,PRJ004,2026-03-20T08:00:00,sofia.ong1@example.org,sofia.singh11@example.org;grace.kaur3@example.org;lina.tan10@example.org,New task request,"Team,
+
+We need to add a task for Gantt refresh and target 2026-03-23.
+Owner suggestion: Chloe Lee.
+
+-Sofia Ong"
+E00156,PRJ004,2026-03-22T11:00:00,aisha.kaur5@example.org,ivy.chung8@example.org,New task request,"Team,
+
+We need to add a task for coordination model upload and target 2026-03-29.
+Owner suggestion: Rina Ali.
+
+-Aisha Kaur"
+E00157,PRJ004,2026-04-12T08:00:00,grace.kaur3@example.org,aisha.ong2@example.org;sofia.ong1@example.org,Re: Action items from last meeting,"Hello all,
+
+Quick update: we are ready for review.
+Can someone confirm if we should mark this as high priority??
+
+Regards,
+Grace Kaur"
+E00158,PRJ004,2026-04-03T11:00:00,sofia.ong1@example.org,lina.ong4@example.org;maya.wong7@example.org;chloe.lee17@example.org,New task request,"Team,
+
+We need to add a task for Gantt refresh and target 2026-04-06.
+Owner suggestion: Anika Chen.
+
+-Sofia Ong"
+E00159,PRJ004,2026-03-12T08:00:00,grace.kaur3@example.org,rina.ali18@example.org;sofia.ong1@example.org;mei.rahman13@example.org,Re: Action items from last meeting,"Hi team,
+
+Following our discussion, please Chloe Lee update the coordination model upload by 2026-03-22.
+Also, log the decision in the change register.
+
+Thanks,
+Grace Kaur"
+E00160,PRJ004,2026-04-08T17:00:00,lina.singh9@example.org,chloe.ng14@example.org;lina.tan10@example.org;mei.rahman13@example.org,Re: Action items from last meeting,"Hello all,
+
+Quick update: task is now blocked pending client feedback.
+Can someone confirm who owns the coordination model??
+
+Regards,
+Lina Singh"
