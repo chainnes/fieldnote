@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+{% block title %}{{ project.project_name }} · Fieldnote{% endblock %}
+{% block body %}
+<header class="work-head">
+  <p class="kicker"><a href="/">Projects</a> · {{ project.project_id }}</p>
+  <h1>{{ project.project_name }}</h1>
+  <p class="where">{{ project.region }} · {{ project.contract_type }} · {{ project.start_date|pretty_date }} – {{ project.target_end_date|pretty_date }}</p>
+</header>
+<section class="stats" aria-label="Plan health, computed from the rows, not from a model">
+  <p><span class="num">{{ project.open_count }}</span><span class="lbl">Open</span></p>
+  <p><span class="num">{{ project.blocked_count }}</span><span class="lbl">Blocked</span></p>
+  <p><span class="num">{{ project.overdue_count }}</span><span class="lbl">Overdue by the clock</span></p>
+  <p><span class="num">{{ project.drift_count }}</span><span class="lbl">Differ from the current snapshot</span></p>
+</section>
+{% if project.downstream_blocked %}
+<p class="aside">{{ project.downstream_blocked }} open {{ "task sits" if project.downstream_blocked == 1 else "tasks sit" }} downstream of a blocked predecessor.</p>
+{% endif %}
+<p class="aside">Overdue uses the planning clock ({{ settings.as_of|pretty_date }}), not today’s wall date. Snapshot drift is the pack’s “current” snapshot versus the master row. The desk does not copy the snapshot onto the plan.</p>
+
+<div class="split plan-split">
+  <section>
+    <h2>Sources</h2>
+    <h3>Meetings</h3>
+    <ul class="source-list">
+      {% for meeting in meetings %}
+      <li>
+        <a href="/p/{{ project.project_id }}/s/meeting/{{ meeting.meeting_id }}">
+          <span class="sid">{{ meeting.meeting_id }}</span>
+          <span class="stitle">{{ meeting.title }}</span>
+          <span class="swhen">{{ meeting.meeting_datetime|pretty_when }}</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+    <h3>Email</h3>
+    <ul class="source-list">
+      {% for email in emails %}
+      <li>
+        <a href="/p/{{ project.project_id }}/s/email/{{ email.email_id }}">
+          <span class="sid">{{ email.email_id }}</span>
+          <span class="stitle">{{ email.subject }}</span>
+          <span class="swhen">{{ email.sent_datetime|pretty_when }}</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  <section>
+    <div class="plan-tools">
+      <h2>Master plan</h2>
+      <label class="finder">Filter
+        <input id="task-filter" type="search" placeholder="Title, owner, id" autocomplete="off">
+      </label>
+      <div class="chips" role="tablist">
+        <button type="button" class="chip on" data-chip="all">All</button>
+        <button type="button" class="chip" data-chip="blocked">Blocked</button>
+        <button type="button" class="chip" data-chip="overdue">Overdue</button>
+        <button type="button" class="chip" data-chip="drift">Snapshot drift</button>
+      </div>
+    </div>
+    <div class="table-wrap">
+      <table class="plan">
+        <thead>
+          <tr>
+            <th>Task</th>
+            <th>Owner</th>
+            <th>Due</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for task in tasks %}
+          <tr id="{{ task.task_id }}"
+              data-task="{{ task.task_id }}"
+              data-status="{{ task.status }}"
+              data-hay="{{ task.task_id }} {{ task.task_title }} {{ task.owner_name }} {{ task.discipline }}"
+              data-blocked="{{ 'yes' if task.status == 'Blocked' else 'no' }}"
+              data-overdue="{{ 'yes' if task.overdue else 'no' }}"
+              data-drift="{{ 'yes' if task.drift else 'no' }}">
+            <td>
+              <span class="tid">{{ task.task_id }}</span>
+              <span class="ttitle">{{ task.task_title }}</span>
+              <span class="tdisc">{{ task.discipline }}{% if task.priority in ['High', 'Critical'] %} · {{ task.priority }}{% endif %}{% if task.origin == 'approved' %} · added here{% endif %}</span>
+              {% if task.drift %}<span class="drift">{{ task.drift|join(" · ") }}</span>{% endif %}
+              {% if task.upstream_blocked %}<span class="drift">Waiting on {{ task.upstream_blocked|join(", ") }}</span>{% endif %}
+            </td>
+            <td>{{ task.owner_name or "—" }}</td>
+            <td class="{{ 'late' if task.overdue else '' }}">{{ task.planned_due|pretty_date }}</td>
+            <td><span class="pill s-{{ task.status|lower|replace(' ', '-') }}">{{ task.status }}</span></td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      <p id="filter-empty" class="empty" hidden>No rows match this filter.</p>
+    </div>
+  </section>
+</div>
+{% endblock %}

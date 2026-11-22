@@ -1,0 +1,95 @@
+<article class="card attention-{{ proposal.attention }} kind-{{ proposal.kind }}">
+  <header class="card-top">
+    <p class="kind">{{ kind_label.get(proposal.kind, proposal.kind) }} · {{ reconcile_label.get(proposal.reconciliation, proposal.reconciliation) }} · {{ proposal.attention }}</p>
+    <p class="conf" title="{{ proposal.confidence_label }}. This is not a probability from a calibrated model.">Urgency {{ proposal.urgency_score or 0 }} · {{ proposal.confidence_label }} {{ proposal.confidence_pct }}%</p>
+  </header>
+  <h3>{{ proposal.title }}</h3>
+  {% if proposal.plan_title and proposal.plan_title|lower != proposal.title|lower %}
+  <p class="plan-link">Plan row: {{ proposal.task_id }} {{ proposal.plan_title }}</p>
+  {% elif proposal.task_id %}
+  <p class="plan-link"><a href="/p/{{ proposal.project_id }}#{{ proposal.task_id }}">{{ proposal.task_id }}</a> on the plan</p>
+  {% endif %}
+  {% if proposal.conflict_reason %}<p class="reason">{{ proposal.conflict_reason }}</p>{% endif %}
+  <blockquote>{{ proposal.evidence_quote }}</blockquote>
+  <p class="rationale">{{ proposal.rationale }}</p>
+  {% if proposal.reconcile_reason %}<p class="aside">{{ proposal.reconcile_reason }}</p>{% endif %}
+  {% if proposal.urgency_reason %}<p class="aside">{{ proposal.urgency_reason }}</p>{% endif %}
+  {% if proposal.support_source %}<p class="aside">Indexed evidence {{ proposal.support_source }}</p>{% endif %}
+
+  {% if proposal.before or proposal.kind == 'new_task' %}
+  <dl class="diff">
+    {% if proposal.kind == 'new_task' %}
+    <div><dt>Will open</dt><dd>{{ proposal.title }}{% if proposal.owner_name %} · {{ proposal.owner_name }}{% endif %}{% if proposal.due_date %} · due {{ proposal.due_date|pretty_date }}{% endif %}</dd></div>
+    {% endif %}
+    {% if proposal.status and (not proposal.before or proposal.status != proposal.before.status) %}
+    <div><dt>Status</dt><dd>{% if proposal.before %}{{ proposal.before.status }} → {% endif %}{{ proposal.status }}</dd></div>
+    {% endif %}
+    {% if proposal.kind != 'new_task' and proposal.due_date and (not proposal.before or proposal.due_date != proposal.before.planned_due) %}
+    <div><dt>Due</dt><dd>{% if proposal.before %}{{ proposal.before.planned_due|pretty_date }} → {% endif %}{{ proposal.due_date|pretty_date }}{% if proposal.from_date and proposal.before and proposal.from_date != proposal.before.planned_due %} <span class="reason">(note assumed {{ proposal.from_date|pretty_date }})</span>{% endif %}</dd></div>
+    {% endif %}
+    {% if proposal.owner_name and (not proposal.before or proposal.owner_name != proposal.before.owner_name) %}
+    <div><dt>Owner</dt><dd>{% if proposal.before %}{{ proposal.before.owner_name or "—" }} → {% endif %}{{ proposal.owner_name }}</dd></div>
+    {% endif %}
+  </dl>
+  {% endif %}
+
+  {% if proposal.cousins %}
+  <ul class="cousins">
+    {% for cousin in proposal.cousins %}
+    <li><a href="/p/{{ proposal.project_id }}#{{ cousin.task_id }}">{{ cousin.task_id }}</a> {{ cousin.title }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+
+  {% if proposal.review_status == 'pending' %}
+  <div class="actions">
+    {% if proposal.applicable %}
+    <form method="post" action="/proposals/{{ proposal.proposal_id }}/approve" data-busy>
+      <button type="submit" class="primary" data-busy="Writing…">Approve</button>
+    </form>
+    {% else %}
+    <form method="post" action="/proposals/{{ proposal.proposal_id }}/approve" class="resolve" data-busy>
+      <input type="hidden" name="force" value="yes">
+      <label>Write it onto
+        <select name="task_id">
+          <option value="">A new task</option>
+          {% for task in tasks %}
+          <option value="{{ task.task_id }}" {% if task.task_id == proposal.task_id %}selected{% endif %}>{{ task.task_id }} · {{ task.task_title }}</option>
+          {% endfor %}
+        </select>
+      </label>
+      <label>Title
+        <input name="title" value="{{ proposal.title }}">
+      </label>
+      <label>Due
+        <input name="due_date" value="{{ proposal.due_date or '' }}" placeholder="YYYY-MM-DD">
+      </label>
+      <label>Owner
+        <select name="owner_id">
+          <option value="">Unassigned</option>
+          {% for person in people %}
+          <option value="{{ person.person_id }}" {% if person.person_id == proposal.owner_id %}selected{% endif %}>{{ person.display_name }}</option>
+          {% endfor %}
+        </select>
+      </label>
+      <label>Status
+        <select name="status">
+          <option value="">Leave status</option>
+          {% for status in statuses %}
+          <option value="{{ status }}" {% if status == proposal.status %}selected{% endif %}>{{ status }}</option>
+          {% endfor %}
+        </select>
+      </label>
+      <button type="submit" class="primary" data-busy="Writing…">Apply this resolution</button>
+    </form>
+    {% endif %}
+    <form method="post" action="/proposals/{{ proposal.proposal_id }}/reject" class="reject" data-busy>
+      <label class="sr" for="reason-{{ proposal.proposal_id }}">Note</label>
+      <input id="reason-{{ proposal.proposal_id }}" name="reason" placeholder="Optional note">
+      <button type="submit" data-busy="Saving…">Not this</button>
+    </form>
+  </div>
+  {% else %}
+  <p class="decided">{{ proposal.review_status }}{% if proposal.resolver_note %} · {{ proposal.resolver_note }}{% endif %}</p>
+  {% endif %}
+</article>

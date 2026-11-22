@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Queue · Fieldnote{% endblock %}
+{% block body %}
+<header class="work-head">
+  <p class="kicker">Waiting on a person</p>
+  <h1>Queue</h1>
+  <p class="lede">These proposals are grounded and checked. They are not on the plan until you approve one.</p>
+</header>
+{% if proposals %}
+  {% for proposal in proposals %}
+  <section class="queue-item">
+    <p class="kicker"><a href="/p/{{ proposal.project_id }}">{{ proposal.project_name }}</a> · <a href="/p/{{ proposal.project_id }}/s/{{ proposal.source_kind }}/{{ proposal.source_id }}">{{ proposal.source_id }}</a></p>
+    {% set tasks = tasks_by_project.get(proposal.project_id, []) %}
+    {% include "partials/proposal.html" %}
+  </section>
+  {% endfor %}
+{% else %}
+  <p class="empty">Nothing is waiting. Open a project, pick a meeting or an email, and read it into the queue.</p>
+{% endif %}
+{% endblock %}
