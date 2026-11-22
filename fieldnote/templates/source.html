@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block title %}{{ source.label }} · Fieldnote{% endblock %}
+{% block body %}
+<header class="work-head">
+  <p class="kicker"><a href="/p/{{ project.project_id }}">{{ project.project_name }}</a> · {{ "Meeting" if source.kind == "meeting" else "Email" }} {{ source.source_id }}</p>
+  <h1>{{ source.label }}</h1>
+  <p class="where">{{ source.when|pretty_when }}{% if source.meta %} · {{ source.meta }}{% endif %}</p>
+  {% if after_clock %}<p class="aside">This is dated after the planning clock ({{ settings.as_of|pretty_date }}). You can still read it. Overdue on the plan is measured against the clock, not against this note.</p>{% endif %}
+</header>
+<div class="split">
+  <section class="source-pane">
+    <h2>The {{ "note" if source.kind == "meeting" else "message" }}</h2>
+    <div class="note">{{ source.text|highlight(quotes) }}</div>
+  </section>
+  <section class="proposal-pane">
+    <div class="draft-row">
+      <h2>Proposals</h2>
+      <form method="post" action="/p/{{ project.project_id }}/s/{{ source.kind }}/{{ source.source_id }}/draft" data-busy>
+        <button type="submit" class="primary" data-busy="Reading the note…">{% if pending or decided %}Read it again{% else %}Read this note{% endif %}</button>
+      </form>
+    </div>
+    <p class="aside">Reading calls the tools, then checks the schema and the quotes. Approving is a separate step.</p>
+    {% if batch %}
+    <p class="aside">Last read with {{ batch.provider }}{% if batch.model %} · {{ batch.model }}{% endif %}.</p>
+    {% endif %}
+    {% if batch_notes %}
+    <ul class="notes">
+      {% for line in batch_notes %}<li>{{ line }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+    {% if trace %}
+    <details class="trace">
+      <summary>Tool calls ({{ trace|length }})</summary>
+      <ol>
+        {% for call in trace %}
+        <li><span class="sid">{{ call.tool }}</span> {% for key, value in call.args.items() %}<span class="arg">{{ key }} {{ value }}</span>{% endfor %}</li>
+        {% endfor %}
+      </ol>
+    </details>
+    {% endif %}
+    {% if pending %}
+      {% for proposal in pending %}
+        {% include "partials/proposal.html" %}
+      {% endfor %}
+    {% elif not decided %}
+      <p class="empty">Nothing queued from this {{ "note" if source.kind == "meeting" else "message" }} yet.</p>
+    {% endif %}
+    {% if decided %}
+      <h2 class="later">Decisions on this source</h2>
+      {% for proposal in decided %}
+        {% include "partials/proposal.html" %}
+      {% endfor %}
+    {% endif %}
+  </section>
+</div>
+{% endblock %}
