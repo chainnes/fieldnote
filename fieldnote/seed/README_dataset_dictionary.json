@@ -1,0 +1,71 @@
+{
+  "pack": "standard",
+  "purpose": "Synthetic datasets for SJ Project Planner Agent (meeting-to-plan planning assistant). All content is fictional and not SJ data.",
+  "files": {
+    "plan_snapshots.csv": [
+      "task_id",
+      "project_id",
+      "task_title",
+      "discipline",
+      "owner_id",
+      "owner_name",
+      "planned_start",
+      "planned_due",
+      "status",
+      "percent_complete",
+      "priority",
+      "notes",
+      "snapshot"
+    ],
+    "dependencies.csv": [
+      "dependency_id",
+      "predecessor_task_id",
+      "successor_task_id",
+      "dependency_type"
+    ],
+    "projects.csv": [
+      "project_id",
+      "project_name",
+      "region",
+      "start_date",
+      "target_end_date",
+      "contract_type"
+    ],
+    "emails.csv": [
+      "email_id",
+      "project_id",
+      "sent_datetime",
+      "from",
+      "to",
+      "subject",
+      "body"
+    ],
+    "tasks_master.csv": [
+      "task_id",
+      "project_id",
+      "task_title",
+      "discipline",
+      "owner_id",
+      "owner_name",
+      "planned_start",
+      "planned_due",
+      "status",
+      "percent_complete",
+      "priority",
+      "notes"
+    ],
+    "people.csv": [
+      "person_id",
+      "display_name",
+      "role",
+      "discipline",
+      "region",
+      "email"
+    ]
+  },
+  "notes": [
+    "Emails use example.org addresses and contain synthetic text.",
+    "meeting_notes.jsonl includes free-text meeting notes per meeting.",
+    "plan_snapshots.csv includes baseline/current snapshots for delta detection."
+  ]
+}
