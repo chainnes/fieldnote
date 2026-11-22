@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block title %}Audit · Fieldnote{% endblock %}
+{% block body %}
+<header class="work-head">
+  <p class="kicker">What was written, and what was refused</p>
+  <h1>Audit</h1>
+</header>
+{% if rows %}
+<div class="table-wrap">
+  <table class="plan audit">
+    <thead>
+      <tr>
+        <th>When</th>
+        <th>Decision</th>
+        <th>Quote</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in rows %}
+      <tr>
+        <td>
+          <span class="tid">{{ row.audit_id }}</span>
+          <span class="tdisc">{{ row.created_at|replace("T", " ")|replace("Z", " UTC") }}</span>
+        </td>
+        <td>
+          <span class="pill s-{{ 'done' if row.action == 'approved' else 'blocked' }}">{{ row.action }}</span>
+          <span class="ttitle">{{ row.summary }}</span>
+          {% if row.source_id %}
+          <span class="tdisc"><a href="/p/{{ row.project_id }}/s/{{ row.source_kind }}/{{ row.source_id }}">{{ row.source_id }}</a>{% if row.task_id %} · {{ row.task_id }}{% endif %}</span>
+          {% endif %}
+        </td>
+        <td class="quote-cell">{{ row.evidence_quote or "—" }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% else %}
+  <p class="empty">No decisions yet. Approvals and refusals land here with the quote they came from.</p>
+{% endif %}
+<h2 class="later">Field changes</h2>
+<p class="aside">One row per applied field. A repeat of the same project, subject, field, and new value is not written again.</p>
+{% if changes %}
+<ul class="change-list">
+  {% for change in changes %}
+  <li>
+    <span class="sid">{{ change.field_name }}</span>
+    {{ change.task_id }} {{ change.old_value or "—" }} → {{ change.new_value or "—" }}
+    <span class="tdisc">{{ change.proposal_id }} · {{ change.source_id }}</span>
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p class="empty">No field has been written yet.</p>
+{% endif %}
+{% endblock %}

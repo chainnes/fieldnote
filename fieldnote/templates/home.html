@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Fieldnote · planning desk{% endblock %}
+{% block body %}
+<section class="hero">
+  <p class="eyebrow">Meetings and mail, held up against the plan</p>
+  <h1>The plan and the conversation, on the same page.</h1>
+  <p class="lede">A note can say a task moved, an owner changed, or something new should exist. Fieldnote checks that claim against the master plan, the current snapshot, and the people directory. It queues a proposal. The plan changes only when you approve it, and the audit keeps the quote.</p>
+  <ol class="beats">
+    <li><strong>Read</strong> a meeting or an email.</li>
+    <li><strong>Ground</strong> it with tool calls against the plan.</li>
+    <li><strong>Check</strong> that every quote is actually in the source.</li>
+    <li><strong>Approve</strong> before a row is written.</li>
+  </ol>
+</section>
+<section class="project-grid" aria-label="Projects">
+  {% for project in projects %}
+  <a class="project-card" href="/p/{{ project.project_id }}">
+    <p class="index">{{ "%02d"|format(loop.index) }}</p>
+    <h2>{{ project.project_name }}</h2>
+    <p class="where">{{ project.region }} · {{ project.contract_type }} · {{ project.start_date|pretty_date }} – {{ project.target_end_date|pretty_date }}</p>
+    <dl class="mini">
+      <div><dt>Open</dt><dd>{{ project.open_count }}</dd></div>
+      <div><dt>Blocked</dt><dd>{{ project.blocked_count }}</dd></div>
+      <div><dt>Overdue</dt><dd>{{ project.overdue_count }}</dd></div>
+      <div><dt>Snapshot drift</dt><dd>{{ project.drift_count }}</dd></div>
+    </dl>
+  </a>
+  {% endfor %}
+</section>
+{% endblock %}

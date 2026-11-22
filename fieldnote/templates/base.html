@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Fieldnote{% endblock %}</title>
+  <meta name="description" content="Fieldnote reads meeting notes and email, checks them against the plan, and waits for a person to approve.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect fill='%23b6401e' width='16' height='16'/%3E%3Crect fill='%23e7e1d4' x='3' y='3' width='10' height='2'/%3E%3Crect fill='%23e7e1d4' x='3' y='7' width='7' height='2'/%3E%3Crect fill='%23e7e1d4' x='3' y='11' width='10' height='2'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/site.css">
+</head>
+<body>
+  <div class="sheet">
+    <header class="mast">
+      <a class="mark" href="/">Fieldnote</a>
+      <p class="by">Charlene Cordero · planning desk</p>
+      <nav class="nav">
+        <a href="/">Projects</a>
+        <a href="/queue">Queue{% if pending_count %}<span class="count">{{ pending_count }}</span>{% endif %}</a>
+        <a href="/changes">What changed</a>
+        <a href="/audit">Audit</a>
+      </nav>
+      <p class="mode" title="The planning clock is the date the desk treats as today.">
+        <span class="mode-pill">{{ settings.provider_label }}</span>
+        <span>Clock {{ settings.as_of|pretty_date }}</span>
+      </p>
+    </header>
+    {% if notice %}<p class="banner ok" role="status">{{ notice }}</p>{% endif %}
+    {% if error %}<p class="banner bad" role="alert">{{ error }}</p>{% endif %}
+    <main>
+      {% block body %}{% endblock %}
+    </main>
+    <footer class="colophon">
+      <p>Fieldnote is a portfolio project by Charlene Cordero. The four projects are fictional, from the public CC0 pack <a href="https://github.com/DoreenSteven/CWB_SJ">DoreenSteven/CWB_SJ</a>. Nothing here is client data.</p>
+      <form method="post" action="/reset" data-busy>
+        <button type="submit" class="texty" data-busy="Restoring…" onclick="return confirm('Restore the seed plan and clear this desk’s approvals?')">Restore the seed plan</button>
+      </form>
+    </footer>
+  </div>
+  <script src="/static/site.js"></script>
+</body>
+</html>

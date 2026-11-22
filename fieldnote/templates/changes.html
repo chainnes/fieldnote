@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block title %}What changed · Fieldnote{% endblock %}
+{% block body %}
+<header class="work-head">
+  <p class="kicker">Baseline versus the current snapshot</p>
+  <h1>What changed</h1>
+  <p class="lede">Date shifts over {{ shift_days }} days, owner changes, new blockers, and rows that were not on the baseline. The pack does not date these deltas. The week of the planning clock is {{ week_start|pretty_date }} – {{ week_end|pretty_date }}.</p>
+</header>
+<h2>In that week</h2>
+{% if week_flags %}
+<ul class="change-list">
+  {% for flag in week_flags %}
+  <li>
+    <span class="sid">{{ flag.change_type }}</span>
+    <a href="/p/{{ flag.project_id }}#{{ flag.task_id }}">{{ flag.task_id }}</a>
+    {{ flag.title }}
+    <span class="tdisc">{{ flag.project_name }} · {{ flag.detail }}{% if flag.old_value %} {{ flag.old_value }} → {{ flag.new_value }}{% endif %}</span>
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p class="empty">Nothing flagged has a current due date in that week, and nothing new was opened on the desk.</p>
+{% endif %}
+<h2 class="later">All flagged deltas ({{ flags|length }})</h2>
+{% if flags %}
+<ul class="change-list">
+  {% for flag in flags %}
+  <li>
+    <span class="sid">{{ flag.change_type }}</span>
+    <a href="/p/{{ flag.project_id }}#{{ flag.task_id }}">{{ flag.task_id }}</a>
+    {{ flag.title }}
+    <span class="tdisc">{{ flag.project_name }} · {{ flag.detail }}{% if flag.old_value %} {{ flag.old_value }} → {{ flag.new_value }}{% endif %}</span>
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p class="empty">The current snapshot matches the baseline on dates, owners, and blockers.</p>
+{% endif %}
+{% endblock %}
