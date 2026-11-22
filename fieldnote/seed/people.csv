@@ -1,0 +1,19 @@
+person_id,display_name,role,discipline,region,email
+P001,Sofia Ong,Architect,MEP,UAE,sofia.ong1@example.org
+P002,Aisha Ong,Architect,Architecture,AU-NSW,aisha.ong2@example.org
+P003,Grace Kaur,Stakeholder,PMO,UAE,grace.kaur3@example.org
+P004,Lina Ong,Project Controls,Sustainability,IN,lina.ong4@example.org
+P005,Aisha Kaur,Cost Manager,PMO,AU-VIC,aisha.kaur5@example.org
+P006,Grace Santos,Project Controls,PMO,AU-NSW,grace.santos6@example.org
+P007,Maya Wong,Project Manager,MEP,UAE,maya.wong7@example.org
+P008,Ivy Chung,Design Manager,Digital,IN,ivy.chung8@example.org
+P009,Lina Singh,BIM Coordinator,Sustainability,AU-NSW,lina.singh9@example.org
+P010,Lina Tan,Structural Engineer,Cost,AU-VIC,lina.tan10@example.org
+P011,Sofia Singh,Cost Manager,Structural,AU-VIC,sofia.singh11@example.org
+P012,Ivy Santos,Project Controls,MEP,UK,ivy.santos12@example.org
+P013,Mei Rahman,Planner,Digital,IN,mei.rahman13@example.org
+P014,Chloe Ng,Structural Engineer,Civil,AU-VIC,chloe.ng14@example.org
+P015,Farah Singh,Architect,Civil,SG,farah.singh15@example.org
+P016,Anika Chen,BIM Coordinator,MEP,SG,anika.chen16@example.org
+P017,Chloe Lee,Project Manager,Digital,IN,chloe.lee17@example.org
+P018,Rina Ali,Planner,MEP,HK,rina.ali18@example.org

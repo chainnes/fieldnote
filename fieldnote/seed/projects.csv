@@ -1,0 +1,5 @@
+project_id,project_name,region,start_date,target_end_date,contract_type
+PRJ001,Harbour Bridge Expansion,AU-NSW,2026-02-16,2027-01-19,Design
+PRJ002,Civic Office Expansion,UK,2026-01-24,2026-11-04,Design
+PRJ003,Orchard Office Package B,AU-NSW,2026-01-26,2027-03-02,Design
+PRJ004,Metro Mall Package B,HK,2026-04-08,2026-12-09,Design

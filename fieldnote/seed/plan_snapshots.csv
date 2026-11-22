@@ -1,0 +1,561 @@
+task_id,project_id,task_title,discipline,owner_id,owner_name,planned_start,planned_due,status,percent_complete,priority,notes,snapshot
+T00001,PRJ001,Weekly report,PMO,P005,Aisha Kaur,2026-03-22,2026-04-03,Not started,0,Low,Client input required,baseline
+T00002,PRJ001,Riser strategy,MEP,P012,Ivy Santos,2026-03-13,2026-03-31,Not started,0,Medium,Pending review,baseline
+T00003,PRJ001,Model federation,Digital,P008,Ivy Chung,2026-03-22,2026-04-05,Not started,0,High,Client input required,baseline
+T00004,PRJ001,Site levels,Civil,P015,Farah Singh,2026-03-07,2026-03-21,Blocked,53,Low,Pending review,baseline
+T00005,PRJ001,Material declarations,Sustainability,P004,Lina Ong,2026-03-18,2026-04-06,Not started,0,Low,Awaiting info,baseline
+T00006,PRJ001,Weekly report,PMO,P003,Grace Kaur,2026-03-23,2026-03-31,Not started,0,Low,,baseline
+T00007,PRJ001,Green Mark evidence,Sustainability,P004,Lina Ong,2026-03-12,2026-03-15,Blocked,64,Medium,Check dependencies,baseline
+T00008,PRJ001,Energy model,Sustainability,P004,Lina Ong,2026-03-31,2026-04-06,Blocked,39,Low,Check dependencies,baseline
+T00009,PRJ001,Riser strategy,MEP,P016,Anika Chen,2026-03-07,2026-03-13,Not started,0,Medium,Awaiting info,baseline
+T00010,PRJ001,Utilities coordination,Civil,P015,Farah Singh,2026-03-09,2026-03-12,Done,100,Low,Check dependencies,baseline
+T00011,PRJ001,Coordination review,Architecture,P002,Aisha Ong,2026-03-14,2026-03-29,Not started,0,High,Check dependencies,baseline
+T00012,PRJ001,Plantroom layout,MEP,P018,Rina Ali,2026-03-14,2026-04-02,Not started,0,Critical,,baseline
+T00013,PRJ001,Plantroom layout,MEP,P012,Ivy Santos,2026-03-20,2026-03-28,Not started,0,Low,Awaiting info,baseline
+T00014,PRJ001,Governance pack,PMO,P005,Aisha Kaur,2026-03-16,2026-04-02,In progress,15,High,Client input required,baseline
+T00015,PRJ001,Embodied carbon calc,Sustainability,P009,Lina Singh,2026-03-23,2026-03-29,In progress,76,Critical,Awaiting info,baseline
+T00016,PRJ001,Coordination review,Architecture,P002,Aisha Ong,2026-03-07,2026-03-19,In progress,31,Low,Client input required,baseline
+T00017,PRJ001,CDE folder structure,Digital,P017,Chloe Lee,2026-03-06,2026-03-23,In progress,28,Low,Client input required,baseline
+T00018,PRJ001,Action log hygiene,PMO,P005,Aisha Kaur,2026-04-02,2026-04-18,In progress,45,Low,Client input required,baseline
+T00019,PRJ001,Variation register,Cost,P010,Lina Tan,2026-03-23,2026-04-02,In progress,35,Critical,Client input required,baseline
+T00020,PRJ001,Variation register,Cost,P010,Lina Tan,2026-03-19,2026-03-31,Not started,0,Medium,Client input required,baseline
+T00021,PRJ001,Clash resolution,MEP,P018,Rina Ali,2026-03-22,2026-04-06,Not started,0,Medium,Pending review,baseline
+T00022,PRJ001,Riser strategy,MEP,P018,Rina Ali,2026-03-19,2026-03-30,In progress,37,Low,,baseline
+T00023,PRJ001,RAID update,PMO,P006,Grace Santos,2026-03-23,2026-04-06,In progress,17,Critical,Pending review,baseline
+T00024,PRJ001,Green Mark evidence,Sustainability,P004,Lina Ong,2026-04-03,2026-04-10,In progress,55,Medium,Client input required,baseline
+T00025,PRJ001,Embodied carbon calc,Sustainability,P009,Lina Singh,2026-03-27,2026-04-14,In progress,90,Critical,,baseline
+T00026,PRJ001,Clash resolution,MEP,P001,Sofia Ong,2026-03-28,2026-04-17,In progress,73,Medium,Check dependencies,baseline
+T00027,PRJ001,Embodied carbon calc,Sustainability,P009,Lina Singh,2026-03-16,2026-04-02,In progress,46,High,Pending review,baseline
+T00028,PRJ001,4D link check,Digital,P013,Mei Rahman,2026-03-24,2026-04-06,Not started,0,Critical,Pending review,baseline
+T00029,PRJ001,Action log hygiene,PMO,P006,Grace Santos,2026-03-29,2026-04-05,In progress,58,Low,Pending review,baseline
+T00030,PRJ001,Foundation concept,Structural,P011,Sofia Singh,2026-04-03,2026-04-16,Not started,0,Low,,baseline
+T00031,PRJ001,Material declarations,Sustainability,P009,Lina Singh,2026-03-13,2026-04-02,Blocked,60,Critical,Check dependencies,baseline
+T00032,PRJ001,Access planning,Civil,P015,Farah Singh,2026-03-05,2026-03-19,In progress,11,Medium,,baseline
+T00033,PRJ001,Access planning,Civil,P014,Chloe Ng,2026-03-20,2026-04-04,In progress,83,Medium,Check dependencies,baseline
+T00034,PRJ001,Clash resolution,MEP,P016,Anika Chen,2026-03-18,2026-03-31,In progress,21,High,Pending review,baseline
+T00035,PRJ001,Plantroom layout,MEP,P012,Ivy Santos,2026-03-30,2026-04-11,In progress,24,High,Client input required,baseline
+T00036,PRJ001,Drainage concept,Civil,P014,Chloe Ng,2026-03-20,2026-04-01,Blocked,69,Medium,Check dependencies,baseline
+T00037,PRJ001,RAID update,PMO,P006,Grace Santos,2026-03-24,2026-03-30,In progress,90,Critical,,baseline
+T00038,PRJ001,Riser strategy,MEP,P001,Sofia Ong,2026-03-26,2026-04-15,Not started,0,Low,Client input required,baseline
+T00039,PRJ001,Plantroom layout,MEP,P001,Sofia Ong,2026-03-10,2026-03-18,In progress,80,Medium,Client input required,baseline
+T00040,PRJ001,Clash resolution,MEP,P007,Maya Wong,2026-03-23,2026-03-29,Not started,0,Low,,baseline
+T00041,PRJ001,Embodied carbon calc,Sustainability,P004,Lina Ong,2026-03-09,2026-03-28,In progress,69,Low,,baseline
+T00042,PRJ001,Foundation concept,Structural,P011,Sofia Singh,2026-03-26,2026-04-05,In progress,31,High,,baseline
+T00043,PRJ001,Action log hygiene,PMO,P003,Grace Kaur,2026-03-10,2026-03-27,In progress,12,Medium,Check dependencies,baseline
+T00044,PRJ001,Client presentation deck,Architecture,P002,Aisha Ong,2026-03-05,2026-03-15,Not started,0,Medium,Pending review,baseline
+T00045,PRJ001,Clash resolution,MEP,P001,Sofia Ong,2026-03-13,2026-03-29,In progress,73,Medium,Check dependencies,baseline
+T00046,PRJ001,4D link check,Digital,P008,Ivy Chung,2026-03-13,2026-03-28,Done,100,Medium,,baseline
+T00047,PRJ001,Weekly report,PMO,P006,Grace Santos,2026-03-15,2026-03-30,Not started,0,High,,baseline
+T00048,PRJ001,Structural coordination,Structural,P011,Sofia Singh,2026-03-14,2026-03-29,In progress,25,High,Client input required,baseline
+T00049,PRJ001,4D link check,Digital,P008,Ivy Chung,2026-03-10,2026-03-27,In progress,40,Low,Pending review,baseline
+T00050,PRJ001,Riser strategy,MEP,P001,Sofia Ong,2026-03-29,2026-04-05,Not started,0,Medium,Pending review,baseline
+T00051,PRJ001,MEP loads,MEP,P018,Rina Ali,2026-03-21,2026-04-07,In progress,40,High,Pending review,baseline
+T00052,PRJ001,Clash resolution,MEP,P007,Maya Wong,2026-03-16,2026-03-25,In progress,70,Medium,Awaiting info,baseline
+T00053,PRJ001,Drainage concept,Civil,P015,Farah Singh,2026-04-03,2026-04-14,In progress,66,Medium,Check dependencies,baseline
+T00054,PRJ001,Model federation,Digital,P017,Chloe Lee,2026-03-08,2026-03-14,In progress,21,Critical,,baseline
+T00055,PRJ001,Action log hygiene,PMO,P005,Aisha Kaur,2026-03-04,2026-03-19,Blocked,34,High,Awaiting info,baseline
+T00056,PRJ001,Embodied carbon calc,Sustainability,P004,Lina Ong,2026-03-21,2026-04-04,Blocked,29,Low,Pending review,baseline
+T00057,PRJ001,Weekly report,PMO,P003,Grace Kaur,2026-03-13,2026-03-20,Blocked,41,High,Check dependencies,baseline
+T00058,PRJ001,Drainage concept,Civil,P015,Farah Singh,2026-04-02,2026-04-13,Not started,0,Critical,,baseline
+T00059,PRJ001,Drainage concept,Civil,P015,Farah Singh,2026-03-31,2026-04-15,In progress,90,Medium,Pending review,baseline
+T00060,PRJ001,Energy model,Sustainability,P004,Lina Ong,2026-04-02,2026-04-12,Blocked,56,Low,Client input required,baseline
+T00061,PRJ001,Governance pack,PMO,P006,Grace Santos,2026-03-10,2026-03-22,Not started,0,Medium,Client input required,baseline
+T00062,PRJ001,4D link check,Digital,P008,Ivy Chung,2026-03-26,2026-04-14,In progress,65,Low,,baseline
+T00063,PRJ001,Cost plan,Cost,P010,Lina Tan,2026-04-01,2026-04-05,Done,100,High,Awaiting info,baseline
+T00064,PRJ001,Plantroom layout,MEP,P012,Ivy Santos,2026-03-17,2026-04-01,Done,100,High,Client input required,baseline
+T00065,PRJ001,Action log hygiene,PMO,P003,Grace Kaur,2026-04-03,2026-04-19,In progress,53,Critical,Client input required,baseline
+T00066,PRJ001,Schematic set,Architecture,P002,Aisha Ong,2026-03-17,2026-04-05,Blocked,67,Medium,,baseline
+T00067,PRJ001,Riser strategy,MEP,P018,Rina Ali,2026-03-09,2026-03-29,Not started,0,Medium,,baseline
+T00068,PRJ001,Action log hygiene,PMO,P006,Grace Santos,2026-03-15,2026-03-31,Not started,0,Medium,Check dependencies,baseline
+T00069,PRJ001,MEP loads,MEP,P016,Anika Chen,2026-03-26,2026-04-05,Not started,0,High,Pending review,baseline
+T00070,PRJ001,Weekly report,PMO,P005,Aisha Kaur,2026-03-22,2026-04-01,In progress,25,Medium,Awaiting info,baseline
+T00071,PRJ002,Utilities coordination,Civil,P015,Farah Singh,2026-04-05,2026-04-14,Not started,0,High,Check dependencies,baseline
+T00072,PRJ002,Plantroom layout,MEP,P007,Maya Wong,2026-03-11,2026-03-22,In progress,24,Critical,,baseline
+T00073,PRJ002,Action log hygiene,PMO,P006,Grace Santos,2026-03-24,2026-04-10,In progress,47,Low,,baseline
+T00074,PRJ002,Clash resolution,MEP,P001,Sofia Ong,2026-04-03,2026-04-21,Not started,0,Low,Check dependencies,baseline
+T00075,PRJ002,Utilities coordination,Civil,P014,Chloe Ng,2026-03-16,2026-04-05,In progress,55,High,Client input required,baseline
+T00076,PRJ002,Green Mark evidence,Sustainability,P009,Lina Singh,2026-03-12,2026-03-19,Blocked,55,Medium,Pending review,baseline
+T00077,PRJ002,MEP loads,MEP,P012,Ivy Santos,2026-04-09,2026-04-28,Blocked,18,High,Client input required,baseline
+T00078,PRJ002,Structural coordination,Structural,P011,Sofia Singh,2026-03-15,2026-03-29,In progress,57,High,Pending review,baseline
+T00079,PRJ002,BIM execution plan,Digital,P008,Ivy Chung,2026-03-11,2026-03-17,In progress,90,Low,Awaiting info,baseline
+T00080,PRJ002,Clash resolution,MEP,P016,Anika Chen,2026-03-25,2026-04-02,Done,100,Medium,Awaiting info,baseline
+T00081,PRJ002,Weekly report,PMO,P006,Grace Santos,2026-03-24,2026-04-08,Not started,0,Critical,Awaiting info,baseline
+T00082,PRJ002,Riser strategy,MEP,P007,Maya Wong,2026-03-10,2026-03-14,Blocked,59,Medium,Pending review,baseline
+T00083,PRJ002,RAID update,PMO,P003,Grace Kaur,2026-03-26,2026-04-11,Done,100,Low,Awaiting info,baseline
+T00084,PRJ002,Governance pack,PMO,P006,Grace Santos,2026-03-19,2026-03-22,In progress,82,Medium,Check dependencies,baseline
+T00085,PRJ002,Action log hygiene,PMO,P003,Grace Kaur,2026-03-26,2026-04-12,In progress,78,Critical,Client input required,baseline
+T00086,PRJ002,RAID update,PMO,P003,Grace Kaur,2026-04-02,2026-04-15,In progress,48,High,Check dependencies,baseline
+T00087,PRJ002,Action log hygiene,PMO,P005,Aisha Kaur,2026-04-06,2026-04-19,In progress,13,Medium,Check dependencies,baseline
+T00088,PRJ002,Weekly report,PMO,P003,Grace Kaur,2026-03-31,2026-04-14,In progress,63,Medium,Client input required,baseline
+T00089,PRJ002,Utilities coordination,Civil,P015,Farah Singh,2026-03-18,2026-03-24,Not started,0,Medium,Pending review,baseline
+T00090,PRJ002,Green Mark evidence,Sustainability,P004,Lina Ong,2026-03-26,2026-04-06,Blocked,63,Medium,Client input required,baseline
+T00091,PRJ002,Embodied carbon calc,Sustainability,P004,Lina Ong,2026-04-06,2026-04-22,In progress,66,Low,Client input required,baseline
+T00092,PRJ002,Material declarations,Sustainability,P004,Lina Ong,2026-04-05,2026-04-20,In progress,34,Low,Awaiting info,baseline
+T00093,PRJ002,Plantroom layout,MEP,P012,Ivy Santos,2026-03-22,2026-04-01,Not started,0,Medium,Check dependencies,baseline
+T00094,PRJ002,Cost plan,Cost,P010,Lina Tan,2026-04-01,2026-04-08,In progress,21,Low,Pending review,baseline
+T00095,PRJ002,Action log hygiene,PMO,P006,Grace Santos,2026-04-02,2026-04-15,Blocked,37,Low,Awaiting info,baseline
+T00096,PRJ002,Riser strategy,MEP,P012,Ivy Santos,2026-04-02,2026-04-20,Not started,0,Low,Pending review,baseline
+T00097,PRJ002,Riser strategy,MEP,P018,Rina Ali,2026-04-04,2026-04-10,Not started,0,High,Awaiting info,baseline
+T00098,PRJ002,Site levels,Civil,P015,Farah Singh,2026-04-05,2026-04-22,Not started,0,Low,,baseline
+T00099,PRJ002,Green Mark evidence,Sustainability,P009,Lina Singh,2026-03-14,2026-04-03,Done,100,High,Client input required,baseline
+T00100,PRJ002,Material declarations,Sustainability,P009,Lina Singh,2026-03-10,2026-03-13,In progress,29,Critical,,baseline
+T00101,PRJ002,Concept options,Architecture,P002,Aisha Ong,2026-03-15,2026-03-30,Blocked,62,Critical,Awaiting info,baseline
+T00102,PRJ002,BIM execution plan,Digital,P017,Chloe Lee,2026-03-21,2026-04-03,In progress,49,Low,Awaiting info,baseline
+T00103,PRJ002,Action log hygiene,PMO,P006,Grace Santos,2026-04-02,2026-04-19,In progress,69,High,Pending review,baseline
+T00104,PRJ002,Riser strategy,MEP,P001,Sofia Ong,2026-03-28,2026-04-15,In progress,12,Critical,Client input required,baseline
+T00105,PRJ002,Schematic set,Architecture,P002,Aisha Ong,2026-04-02,2026-04-09,In progress,44,High,Pending review,baseline
+T00106,PRJ002,Model federation,Digital,P017,Chloe Lee,2026-04-01,2026-04-05,Done,100,Critical,Client input required,baseline
+T00107,PRJ002,Energy model,Sustainability,P004,Lina Ong,2026-04-04,2026-04-16,Blocked,23,Low,Pending review,baseline
+T00108,PRJ002,Frame sizing,Structural,P011,Sofia Singh,2026-03-26,2026-04-05,In progress,80,High,,baseline
+T00109,PRJ002,Frame sizing,Structural,P011,Sofia Singh,2026-04-07,2026-04-25,In progress,41,High,Awaiting info,baseline
+T00110,PRJ002,Weekly report,PMO,P005,Aisha Kaur,2026-03-10,2026-03-27,In progress,60,Medium,Client input required,baseline
+T00111,PRJ002,Weekly report,PMO,P003,Grace Kaur,2026-03-19,2026-03-31,In progress,83,Low,Awaiting info,baseline
+T00112,PRJ002,Weekly report,PMO,P003,Grace Kaur,2026-03-19,2026-04-02,Done,100,Low,Check dependencies,baseline
+T00113,PRJ002,Foundation concept,Structural,P011,Sofia Singh,2026-03-18,2026-03-29,In progress,31,Medium,,baseline
+T00114,PRJ002,Plantroom layout,MEP,P007,Maya Wong,2026-03-22,2026-04-08,Not started,0,Low,Awaiting info,baseline
+T00115,PRJ002,BIM execution plan,Digital,P008,Ivy Chung,2026-04-09,2026-04-16,In progress,20,High,Awaiting info,baseline
+T00116,PRJ002,MEP loads,MEP,P001,Sofia Ong,2026-03-18,2026-04-07,In progress,11,Low,Awaiting info,baseline
+T00117,PRJ002,Frame sizing,Structural,P011,Sofia Singh,2026-04-06,2026-04-09,In progress,61,Medium,,baseline
+T00118,PRJ002,Site levels,Civil,P014,Chloe Ng,2026-03-12,2026-03-25,Blocked,56,High,Check dependencies,baseline
+T00119,PRJ002,Plantroom layout,MEP,P001,Sofia Ong,2026-04-08,2026-04-21,In progress,50,Critical,Client input required,baseline
+T00120,PRJ002,Foundation concept,Structural,P011,Sofia Singh,2026-03-12,2026-03-15,Not started,0,High,Pending review,baseline
+T00121,PRJ002,Access planning,Civil,P014,Chloe Ng,2026-03-27,2026-04-16,Not started,0,Medium,Client input required,baseline
+T00122,PRJ002,Material declarations,Sustainability,P009,Lina Singh,2026-04-03,2026-04-07,Blocked,63,High,Pending review,baseline
+T00123,PRJ002,CDE folder structure,Digital,P017,Chloe Lee,2026-03-14,2026-03-25,Not started,0,High,Awaiting info,baseline
+T00124,PRJ002,4D link check,Digital,P008,Ivy Chung,2026-04-03,2026-04-08,Done,100,Low,,baseline
+T00125,PRJ002,MEP loads,MEP,P018,Rina Ali,2026-03-27,2026-04-04,In progress,87,Medium,Awaiting info,baseline
+T00126,PRJ002,RAID update,PMO,P006,Grace Santos,2026-03-21,2026-03-31,In progress,73,High,Check dependencies,baseline
+T00127,PRJ002,Drainage concept,Civil,P015,Farah Singh,2026-03-20,2026-03-23,Not started,0,Critical,Pending review,baseline
+T00128,PRJ002,Schematic set,Architecture,P002,Aisha Ong,2026-03-28,2026-04-12,In progress,58,Low,Pending review,baseline
+T00129,PRJ002,Riser strategy,MEP,P001,Sofia Ong,2026-04-01,2026-04-17,Not started,0,High,Check dependencies,baseline
+T00130,PRJ002,Energy model,Sustainability,P009,Lina Singh,2026-04-07,2026-04-25,Not started,0,Critical,Pending review,baseline
+T00131,PRJ002,Action log hygiene,PMO,P005,Aisha Kaur,2026-03-19,2026-03-24,In progress,72,Medium,Pending review,baseline
+T00132,PRJ002,Drainage concept,Civil,P015,Farah Singh,2026-03-28,2026-04-01,Done,100,Low,Check dependencies,baseline
+T00133,PRJ002,Governance pack,PMO,P006,Grace Santos,2026-04-06,2026-04-13,Done,100,Low,Awaiting info,baseline
+T00134,PRJ002,MEP loads,MEP,P001,Sofia Ong,2026-04-08,2026-04-20,Not started,0,Medium,Check dependencies,baseline
+T00135,PRJ002,BIM execution plan,Digital,P013,Mei Rahman,2026-03-23,2026-04-05,In progress,60,Low,Client input required,baseline
+T00136,PRJ002,Model federation,Digital,P008,Ivy Chung,2026-04-04,2026-04-07,Not started,0,Critical,,baseline
+T00137,PRJ002,Plantroom layout,MEP,P001,Sofia Ong,2026-04-07,2026-04-20,Not started,0,Critical,Awaiting info,baseline
+T00138,PRJ002,4D link check,Digital,P017,Chloe Lee,2026-03-10,2026-03-18,Not started,0,Low,Client input required,baseline
+T00139,PRJ002,Clash resolution,MEP,P012,Ivy Santos,2026-04-09,2026-04-14,In progress,37,Low,Pending review,baseline
+T00140,PRJ002,RAID update,PMO,P006,Grace Santos,2026-03-18,2026-03-29,Not started,0,Low,Check dependencies,baseline
+T00141,PRJ003,Riser strategy,MEP,P012,Ivy Santos,2026-03-09,2026-03-22,In progress,68,High,Check dependencies,baseline
+T00142,PRJ003,Material declarations,Sustainability,P009,Lina Singh,2026-03-22,2026-04-04,In progress,59,Critical,Check dependencies,baseline
+T00143,PRJ003,Drainage concept,Civil,P014,Chloe Ng,2026-04-06,2026-04-09,Not started,0,Critical,Awaiting info,baseline
+T00144,PRJ003,Plantroom layout,MEP,P007,Maya Wong,2026-03-11,2026-03-15,Done,100,High,Check dependencies,baseline
+T00145,PRJ003,Riser strategy,MEP,P018,Rina Ali,2026-03-23,2026-03-26,In progress,70,High,Client input required,baseline
+T00146,PRJ003,Clash resolution,MEP,P018,Rina Ali,2026-03-16,2026-03-31,In progress,18,High,Client input required,baseline
+T00147,PRJ003,Load paths,Structural,P011,Sofia Singh,2026-03-29,2026-04-18,In progress,88,High,Check dependencies,baseline
+T00148,PRJ003,Clash resolution,MEP,P012,Ivy Santos,2026-03-27,2026-04-06,Done,100,Medium,Client input required,baseline
+T00149,PRJ003,Action log hygiene,PMO,P006,Grace Santos,2026-03-16,2026-03-24,Not started,0,Low,Pending review,baseline
+T00150,PRJ003,CDE folder structure,Digital,P013,Mei Rahman,2026-04-04,2026-04-20,Not started,0,Critical,,baseline
+T00151,PRJ003,Riser strategy,MEP,P012,Ivy Santos,2026-03-30,2026-04-18,In progress,67,High,Check dependencies,baseline
+T00152,PRJ003,Variation register,Cost,P010,Lina Tan,2026-03-31,2026-04-06,In progress,71,Medium,,baseline
+T00153,PRJ003,Action log hygiene,PMO,P005,Aisha Kaur,2026-03-24,2026-04-12,In progress,89,High,Check dependencies,baseline
+T00154,PRJ003,Embodied carbon calc,Sustainability,P009,Lina Singh,2026-03-26,2026-04-04,Not started,0,Medium,Pending review,baseline
+T00155,PRJ003,Riser strategy,MEP,P018,Rina Ali,2026-04-07,2026-04-20,In progress,43,Low,Client input required,baseline
+T00156,PRJ003,Plantroom layout,MEP,P016,Anika Chen,2026-03-15,2026-03-22,In progress,47,Low,Check dependencies,baseline
+T00157,PRJ003,CDE folder structure,Digital,P013,Mei Rahman,2026-03-10,2026-03-22,Done,100,High,Awaiting info,baseline
+T00158,PRJ003,Model federation,Digital,P013,Mei Rahman,2026-04-07,2026-04-16,Done,100,Low,Awaiting info,baseline
+T00159,PRJ003,Load paths,Structural,P011,Sofia Singh,2026-03-11,2026-03-28,In progress,77,Critical,,baseline
+T00160,PRJ003,Material declarations,Sustainability,P004,Lina Ong,2026-04-07,2026-04-24,Blocked,58,Critical,Awaiting info,baseline
+T00161,PRJ003,Governance pack,PMO,P003,Grace Kaur,2026-03-21,2026-04-08,Not started,0,Medium,Check dependencies,baseline
+T00162,PRJ003,Plantroom layout,MEP,P018,Rina Ali,2026-04-07,2026-04-19,In progress,59,Low,,baseline
+T00163,PRJ003,BIM execution plan,Digital,P008,Ivy Chung,2026-03-27,2026-03-30,Not started,0,Critical,,baseline
+T00164,PRJ003,Riser strategy,MEP,P007,Maya Wong,2026-03-24,2026-03-28,In progress,63,Critical,,baseline
+T00165,PRJ003,Action log hygiene,PMO,P005,Aisha Kaur,2026-03-19,2026-03-28,In progress,10,High,Client input required,baseline
+T00166,PRJ003,Embodied carbon calc,Sustainability,P009,Lina Singh,2026-03-19,2026-04-03,In progress,48,Critical,,baseline
+T00167,PRJ003,Tender clarification,Cost,P010,Lina Tan,2026-03-16,2026-03-31,Blocked,37,High,Awaiting info,baseline
+T00168,PRJ003,RAID update,PMO,P005,Aisha Kaur,2026-03-15,2026-04-04,In progress,69,Medium,Pending review,baseline
+T00169,PRJ003,Foundation concept,Structural,P011,Sofia Singh,2026-03-23,2026-04-12,In progress,50,Low,Check dependencies,baseline
+T00170,PRJ003,Load paths,Structural,P011,Sofia Singh,2026-03-17,2026-03-27,Blocked,30,Medium,Client input required,baseline
+T00171,PRJ003,Utilities coordination,Civil,P015,Farah Singh,2026-04-07,2026-04-24,Not started,0,Medium,Check dependencies,baseline
+T00172,PRJ003,Embodied carbon calc,Sustainability,P004,Lina Ong,2026-03-13,2026-03-18,Blocked,28,Low,Client input required,baseline
+T00173,PRJ003,Governance pack,PMO,P006,Grace Santos,2026-03-16,2026-03-28,Blocked,25,Medium,Awaiting info,baseline
+T00174,PRJ003,BIM execution plan,Digital,P017,Chloe Lee,2026-03-23,2026-03-29,Not started,0,Critical,Awaiting info,baseline
+T00175,PRJ003,Material declarations,Sustainability,P009,Lina Singh,2026-03-30,2026-04-15,Not started,0,Low,Awaiting info,baseline
+T00176,PRJ003,Access planning,Civil,P015,Farah Singh,2026-04-02,2026-04-12,Done,100,High,Pending review,baseline
+T00177,PRJ003,Foundation concept,Structural,P011,Sofia Singh,2026-03-13,2026-03-23,In progress,14,Critical,Awaiting info,baseline
+T00178,PRJ003,Value engineering log,Cost,P010,Lina Tan,2026-03-29,2026-04-18,In progress,35,Medium,Awaiting info,baseline
+T00179,PRJ003,Access planning,Civil,P014,Chloe Ng,2026-03-30,2026-04-14,Not started,0,Medium,Client input required,baseline
+T00180,PRJ003,BIM execution plan,Digital,P017,Chloe Lee,2026-03-18,2026-04-05,In progress,73,Medium,Check dependencies,baseline
+T00181,PRJ003,Energy model,Sustainability,P009,Lina Singh,2026-03-28,2026-04-17,Blocked,22,Critical,Pending review,baseline
+T00182,PRJ003,CDE folder structure,Digital,P008,Ivy Chung,2026-03-10,2026-03-16,Done,100,Medium,Pending review,baseline
+T00183,PRJ003,Schematic set,Architecture,P002,Aisha Ong,2026-03-19,2026-04-02,In progress,41,High,Awaiting info,baseline
+T00184,PRJ003,Energy model,Sustainability,P004,Lina Ong,2026-04-03,2026-04-08,Blocked,17,Low,Awaiting info,baseline
+T00185,PRJ003,4D link check,Digital,P013,Mei Rahman,2026-03-10,2026-03-14,Not started,0,Critical,Awaiting info,baseline
+T00186,PRJ003,Access planning,Civil,P014,Chloe Ng,2026-03-11,2026-03-25,Blocked,51,Medium,,baseline
+T00187,PRJ003,Load paths,Structural,P011,Sofia Singh,2026-04-04,2026-04-22,In progress,43,Low,Awaiting info,baseline
+T00188,PRJ003,Green Mark evidence,Sustainability,P004,Lina Ong,2026-03-24,2026-04-04,In progress,25,Critical,Awaiting info,baseline
+T00189,PRJ003,RAID update,PMO,P006,Grace Santos,2026-03-25,2026-04-05,In progress,35,Critical,Client input required,baseline
+T00190,PRJ003,MEP loads,MEP,P007,Maya Wong,2026-04-07,2026-04-17,Blocked,69,Medium,,baseline
+T00191,PRJ003,Plantroom layout,MEP,P001,Sofia Ong,2026-04-08,2026-04-12,In progress,83,Medium,,baseline
+T00192,PRJ003,Weekly report,PMO,P006,Grace Santos,2026-04-04,2026-04-15,Done,100,Low,Pending review,baseline
+T00193,PRJ003,Embodied carbon calc,Sustainability,P004,Lina Ong,2026-03-30,2026-04-08,Not started,0,Low,Awaiting info,baseline
+T00194,PRJ003,Action log hygiene,PMO,P003,Grace Kaur,2026-03-12,2026-03-16,Not started,0,High,,baseline
+T00195,PRJ003,Drainage concept,Civil,P015,Farah Singh,2026-03-09,2026-03-22,Done,100,Low,,baseline
+T00196,PRJ003,Model federation,Digital,P008,Ivy Chung,2026-04-01,2026-04-20,In progress,29,Medium,Awaiting info,baseline
+T00197,PRJ003,MEP loads,MEP,P007,Maya Wong,2026-03-30,2026-04-12,Blocked,5,Critical,,baseline
+T00198,PRJ003,Riser strategy,MEP,P016,Anika Chen,2026-04-07,2026-04-12,Blocked,30,Low,Pending review,baseline
+T00199,PRJ003,Site levels,Civil,P014,Chloe Ng,2026-03-29,2026-04-12,In progress,73,Medium,Pending review,baseline
+T00200,PRJ003,Cost plan,Cost,P010,Lina Tan,2026-04-01,2026-04-18,Blocked,26,Critical,Check dependencies,baseline
+T00201,PRJ003,CDE folder structure,Digital,P017,Chloe Lee,2026-04-01,2026-04-21,In progress,90,Low,Pending review,baseline
+T00202,PRJ003,Model federation,Digital,P008,Ivy Chung,2026-03-15,2026-04-01,In progress,73,Critical,Check dependencies,baseline
+T00203,PRJ003,Structural coordination,Structural,P011,Sofia Singh,2026-03-21,2026-03-26,Not started,0,High,,baseline
+T00204,PRJ003,Variation register,Cost,P010,Lina Tan,2026-03-28,2026-03-31,Done,100,Critical,Client input required,baseline
+T00205,PRJ003,Variation register,Cost,P010,Lina Tan,2026-03-13,2026-03-26,In progress,20,Critical,Check dependencies,baseline
+T00206,PRJ003,Coordination review,Architecture,P002,Aisha Ong,2026-03-19,2026-03-24,Done,100,Critical,Client input required,baseline
+T00207,PRJ003,BIM execution plan,Digital,P008,Ivy Chung,2026-03-15,2026-03-19,In progress,33,High,Pending review,baseline
+T00208,PRJ003,Action log hygiene,PMO,P005,Aisha Kaur,2026-03-14,2026-03-24,In progress,88,High,Check dependencies,baseline
+T00209,PRJ003,Foundation concept,Structural,P011,Sofia Singh,2026-04-05,2026-04-13,In progress,11,Medium,,baseline
+T00210,PRJ003,4D link check,Digital,P008,Ivy Chung,2026-03-27,2026-04-07,Blocked,70,Critical,Awaiting info,baseline
+T00211,PRJ004,Site levels,Civil,P014,Chloe Ng,2026-03-21,2026-04-03,In progress,47,High,Check dependencies,baseline
+T00212,PRJ004,BIM execution plan,Digital,P017,Chloe Lee,2026-04-03,2026-04-21,In progress,12,Low,Client input required,baseline
+T00213,PRJ004,4D link check,Digital,P013,Mei Rahman,2026-03-14,2026-04-02,Done,100,Low,Pending review,baseline
+T00214,PRJ004,MEP loads,MEP,P016,Anika Chen,2026-03-05,2026-03-16,Not started,0,Low,Check dependencies,baseline
+T00215,PRJ004,Action log hygiene,PMO,P006,Grace Santos,2026-03-25,2026-04-04,In progress,79,Critical,Client input required,baseline
+T00216,PRJ004,Site levels,Civil,P014,Chloe Ng,2026-03-30,2026-04-14,In progress,56,High,Awaiting info,baseline
+T00217,PRJ004,Plantroom layout,MEP,P016,Anika Chen,2026-03-30,2026-04-19,In progress,27,Low,Awaiting info,baseline
+T00218,PRJ004,Value engineering log,Cost,P010,Lina Tan,2026-03-26,2026-04-07,Done,100,Critical,Pending review,baseline
+T00219,PRJ004,Action log hygiene,PMO,P006,Grace Santos,2026-03-14,2026-04-01,Not started,0,Critical,,baseline
+T00220,PRJ004,Energy model,Sustainability,P009,Lina Singh,2026-03-17,2026-03-30,In progress,70,Low,Awaiting info,baseline
+T00221,PRJ004,Utilities coordination,Civil,P015,Farah Singh,2026-03-25,2026-04-02,Blocked,10,Medium,Pending review,baseline
+T00222,PRJ004,Clash resolution,MEP,P018,Rina Ali,2026-03-26,2026-04-15,Blocked,14,High,Check dependencies,baseline
+T00223,PRJ004,Clash resolution,MEP,P012,Ivy Santos,2026-03-21,2026-04-02,Done,100,Critical,,baseline
+T00224,PRJ004,Coordination review,Architecture,P002,Aisha Ong,2026-03-16,2026-03-30,In progress,41,Low,Client input required,baseline
+T00225,PRJ004,Site levels,Civil,P014,Chloe Ng,2026-04-03,2026-04-15,Not started,0,Critical,Check dependencies,baseline
+T00226,PRJ004,Structural coordination,Structural,P011,Sofia Singh,2026-03-17,2026-04-04,Blocked,28,Medium,Client input required,baseline
+T00227,PRJ004,4D link check,Digital,P017,Chloe Lee,2026-03-26,2026-04-07,Not started,0,Critical,,baseline
+T00228,PRJ004,BIM execution plan,Digital,P017,Chloe Lee,2026-04-01,2026-04-11,In progress,61,High,Awaiting info,baseline
+T00229,PRJ004,Weekly report,PMO,P005,Aisha Kaur,2026-03-26,2026-04-05,In progress,46,Critical,Pending review,baseline
+T00230,PRJ004,Governance pack,PMO,P005,Aisha Kaur,2026-03-24,2026-04-04,Blocked,70,High,Client input required,baseline
+T00231,PRJ004,MEP loads,MEP,P007,Maya Wong,2026-03-14,2026-03-20,In progress,82,High,,baseline
+T00232,PRJ004,BIM execution plan,Digital,P017,Chloe Lee,2026-03-08,2026-03-21,Not started,0,Critical,Pending review,baseline
+T00233,PRJ004,BIM execution plan,Digital,P017,Chloe Lee,2026-03-19,2026-04-08,In progress,14,Critical,,baseline
+T00234,PRJ004,MEP loads,MEP,P016,Anika Chen,2026-03-14,2026-03-27,Done,100,Medium,Client input required,baseline
+T00235,PRJ004,Riser strategy,MEP,P007,Maya Wong,2026-03-31,2026-04-20,Blocked,27,Low,Client input required,baseline
+T00236,PRJ004,Material declarations,Sustainability,P009,Lina Singh,2026-03-16,2026-03-21,Done,100,Low,Check dependencies,baseline
+T00237,PRJ004,4D link check,Digital,P013,Mei Rahman,2026-03-12,2026-03-16,Blocked,47,High,,baseline
+T00238,PRJ004,MEP loads,MEP,P016,Anika Chen,2026-03-18,2026-04-04,Done,100,Medium,Pending review,baseline
+T00239,PRJ004,Plantroom layout,MEP,P007,Maya Wong,2026-03-17,2026-03-25,In progress,34,Low,Check dependencies,baseline
+T00240,PRJ004,MEP loads,MEP,P007,Maya Wong,2026-03-29,2026-04-09,Not started,0,Low,,baseline
+T00241,PRJ004,MEP loads,MEP,P012,Ivy Santos,2026-03-18,2026-03-21,Blocked,38,High,Awaiting info,baseline
+T00242,PRJ004,Frame sizing,Structural,P011,Sofia Singh,2026-03-14,2026-03-20,Not started,0,Critical,,baseline
+T00243,PRJ004,Site levels,Civil,P015,Farah Singh,2026-03-15,2026-03-21,Done,100,Critical,,baseline
+T00244,PRJ004,Frame sizing,Structural,P011,Sofia Singh,2026-03-20,2026-03-27,Blocked,37,Critical,Awaiting info,baseline
+T00245,PRJ004,Riser strategy,MEP,P012,Ivy Santos,2026-03-26,2026-03-29,Done,100,Critical,Check dependencies,baseline
+T00246,PRJ004,Governance pack,PMO,P006,Grace Santos,2026-03-09,2026-03-16,Not started,0,Low,,baseline
+T00247,PRJ004,Governance pack,PMO,P003,Grace Kaur,2026-03-29,2026-04-02,Not started,0,High,Pending review,baseline
+T00248,PRJ004,Clash resolution,MEP,P018,Rina Ali,2026-03-20,2026-03-29,Not started,0,Critical,,baseline
+T00249,PRJ004,Green Mark evidence,Sustainability,P004,Lina Ong,2026-04-04,2026-04-13,In progress,83,Low,Client input required,baseline
+T00250,PRJ004,Client presentation deck,Architecture,P002,Aisha Ong,2026-03-10,2026-03-25,In progress,40,Critical,Client input required,baseline
+T00251,PRJ004,RAID update,PMO,P005,Aisha Kaur,2026-04-03,2026-04-21,In progress,18,Medium,,baseline
+T00252,PRJ004,Model federation,Digital,P013,Mei Rahman,2026-03-25,2026-03-29,Not started,0,Low,Check dependencies,baseline
+T00253,PRJ004,Client presentation deck,Architecture,P002,Aisha Ong,2026-03-12,2026-03-22,Blocked,57,High,,baseline
+T00254,PRJ004,Governance pack,PMO,P005,Aisha Kaur,2026-03-05,2026-03-23,Blocked,17,Medium,Awaiting info,baseline
+T00255,PRJ004,Model federation,Digital,P017,Chloe Lee,2026-03-24,2026-04-12,In progress,75,Low,,baseline
+T00256,PRJ004,Plantroom layout,MEP,P001,Sofia Ong,2026-03-21,2026-04-10,In progress,86,Low,Client input required,baseline
+T00257,PRJ004,Variation register,Cost,P010,Lina Tan,2026-03-17,2026-03-20,In progress,36,Medium,Client input required,baseline
+T00258,PRJ004,Drainage concept,Civil,P015,Farah Singh,2026-03-08,2026-03-17,In progress,24,High,,baseline
+T00259,PRJ004,Weekly report,PMO,P003,Grace Kaur,2026-04-01,2026-04-07,Not started,0,High,Pending review,baseline
+T00260,PRJ004,Governance pack,PMO,P005,Aisha Kaur,2026-03-24,2026-04-06,Blocked,15,Low,,baseline
+T00261,PRJ004,Green Mark evidence,Sustainability,P004,Lina Ong,2026-03-21,2026-04-05,In progress,62,Low,,baseline
+T00262,PRJ004,Concept options,Architecture,P002,Aisha Ong,2026-03-26,2026-04-02,Blocked,12,Medium,Client input required,baseline
+T00263,PRJ004,Variation register,Cost,P010,Lina Tan,2026-03-13,2026-03-20,In progress,48,Low,Pending review,baseline
+T00264,PRJ004,BIM execution plan,Digital,P013,Mei Rahman,2026-03-10,2026-03-27,Not started,0,High,Awaiting info,baseline
+T00265,PRJ004,Clash resolution,MEP,P001,Sofia Ong,2026-03-22,2026-03-25,In progress,79,High,,baseline
+T00266,PRJ004,CDE folder structure,Digital,P008,Ivy Chung,2026-03-30,2026-04-04,In progress,23,High,Check dependencies,baseline
+T00267,PRJ004,Frame sizing,Structural,P011,Sofia Singh,2026-03-07,2026-03-27,Not started,0,Medium,Client input required,baseline
+T00268,PRJ004,Schematic set,Architecture,P002,Aisha Ong,2026-04-04,2026-04-20,Done,100,Medium,Awaiting info,baseline
+T00269,PRJ004,Cost plan,Cost,P010,Lina Tan,2026-03-27,2026-04-07,In progress,25,Critical,Client input required,baseline
+T00270,PRJ004,Action log hygiene,PMO,P006,Grace Santos,2026-03-29,2026-04-13,Not started,0,Low,Awaiting info,baseline
+T00271,PRJ004,Green Mark evidence,Sustainability,P009,Lina Singh,2026-03-25,2026-03-30,In progress,60,Low,,baseline
+T00272,PRJ004,RAID update,PMO,P003,Grace Kaur,2026-03-07,2026-03-21,Not started,0,Critical,Client input required,baseline
+T00273,PRJ004,Material declarations,Sustainability,P009,Lina Singh,2026-03-10,2026-03-16,In progress,60,Medium,Check dependencies,baseline
+T00274,PRJ004,Material declarations,Sustainability,P004,Lina Ong,2026-03-15,2026-03-28,Blocked,54,Medium,,baseline
+T00275,PRJ004,Riser strategy,MEP,P007,Maya Wong,2026-03-26,2026-04-08,In progress,11,Low,,baseline
+T00276,PRJ004,Action log hygiene,PMO,P006,Grace Santos,2026-03-26,2026-04-06,Not started,0,Low,,baseline
+T00277,PRJ004,CDE folder structure,Digital,P013,Mei Rahman,2026-03-25,2026-03-30,In progress,38,Low,Pending review,baseline
+T00278,PRJ004,Riser strategy,MEP,P001,Sofia Ong,2026-04-01,2026-04-08,Done,100,Medium,Awaiting info,baseline
+T00279,PRJ004,Riser strategy,MEP,P012,Ivy Santos,2026-03-16,2026-03-30,Not started,0,Medium,Pending review,baseline
+T00280,PRJ004,BIM execution plan,Digital,P013,Mei Rahman,2026-03-12,2026-03-21,Done,100,Medium,Check dependencies,baseline
+T00001,PRJ001,Weekly report,PMO,P005,Aisha Kaur,2026-03-22,2026-04-03,Not started,0,Low,Client input required,current
+T00002,PRJ001,Riser strategy,MEP,P012,Ivy Santos,2026-03-13,2026-03-31,Not started,0,Medium,Pending review,current
+T00003,PRJ001,Model federation,Digital,P008,Ivy Chung,2026-03-22,2026-04-05,Not started,0,High,Client input required,current
+T00004,PRJ001,Site levels,Civil,P015,Farah Singh,2026-03-07,2026-03-21,Blocked,53,Low,Pending review,current
+T00005,PRJ001,Material declarations,Sustainability,P004,Lina Ong,2026-03-18,2026-04-06,Not started,0,Low,Awaiting info,current
+T00006,PRJ001,Weekly report,PMO,P003,Grace Kaur,2026-03-23,2026-03-31,Not started,0,Low,,current
+T00007,PRJ001,Green Mark evidence,Sustainability,P004,Lina Ong,2026-03-12,2026-03-14,Blocked,64,Medium,Check dependencies,current
+T00008,PRJ001,Energy model,Sustainability,P004,Lina Ong,2026-03-31,2026-04-06,Blocked,39,Low,Check dependencies,current
+T00009,PRJ001,Riser strategy,MEP,P016,Anika Chen,2026-03-07,2026-03-13,Not started,0,Medium,Awaiting info,current
+T00010,PRJ001,Utilities coordination,Civil,P015,Farah Singh,2026-03-09,2026-03-12,Done,100,Low,Check dependencies,current
+T00011,PRJ001,Coordination review,Architecture,P002,Aisha Ong,2026-03-14,2026-03-29,Not started,0,High,Check dependencies,current
+T00012,PRJ001,Plantroom layout,MEP,P018,Rina Ali,2026-03-14,2026-04-02,Not started,0,Critical,,current
+T00013,PRJ001,Plantroom layout,MEP,P012,Ivy Santos,2026-03-20,2026-03-26,In progress,12,Low,Awaiting info,current
+T00014,PRJ001,Governance pack,PMO,P005,Aisha Kaur,2026-03-16,2026-04-02,In progress,15,High,Client input required,current
+T00015,PRJ001,Embodied carbon calc,Sustainability,P009,Lina Singh,2026-03-23,2026-03-30,In progress,76,Critical,Awaiting info,current
+T00016,PRJ001,Coordination review,Architecture,P002,Aisha Ong,2026-03-07,2026-03-19,In progress,31,Low,Client input required,current
+T00017,PRJ001,CDE folder structure,Digital,P017,Chloe Lee,2026-03-06,2026-03-23,In progress,28,Low,Client input required,current
+T00018,PRJ001,Action log hygiene,PMO,P005,Aisha Kaur,2026-04-02,2026-04-18,In progress,45,Low,Client input required,current
+T00019,PRJ001,Variation register,Cost,P010,Lina Tan,2026-03-23,2026-04-02,In progress,35,Critical,Client input required,current
+T00020,PRJ001,Variation register,Cost,P010,Lina Tan,2026-03-19,2026-03-31,Not started,0,Medium,Client input required,current
+T00021,PRJ001,Clash resolution,MEP,P018,Rina Ali,2026-03-22,2026-04-06,Not started,0,Medium,Pending review,current
+T00022,PRJ001,Riser strategy,MEP,P018,Rina Ali,2026-03-19,2026-03-30,In progress,37,Low,,current
+T00023,PRJ001,RAID update,PMO,P006,Grace Santos,2026-03-23,2026-04-11,In progress,17,Critical,Pending review,current
+T00024,PRJ001,Green Mark evidence,Sustainability,P004,Lina Ong,2026-04-03,2026-04-10,In progress,55,Medium,Client input required,current
+T00025,PRJ001,Embodied carbon calc,Sustainability,P009,Lina Singh,2026-03-27,2026-04-14,In progress,90,Critical,,current
+T00026,PRJ001,Clash resolution,MEP,P001,Sofia Ong,2026-03-28,2026-04-18,In progress,73,Medium,Check dependencies,current
+T00027,PRJ001,Embodied carbon calc,Sustainability,P009,Lina Singh,2026-03-16,2026-04-02,In progress,46,High,Pending review,current
+T00028,PRJ001,4D link check,Digital,P013,Mei Rahman,2026-03-24,2026-04-06,Not started,0,Critical,Pending review,current
+T00029,PRJ001,Action log hygiene,PMO,P006,Grace Santos,2026-03-29,2026-04-05,In progress,58,Low,Pending review,current
+T00030,PRJ001,Foundation concept,Structural,P011,Sofia Singh,2026-04-03,2026-04-16,Not started,0,Low,,current
+T00031,PRJ001,Material declarations,Sustainability,P009,Lina Singh,2026-03-13,2026-04-05,Blocked,60,Critical,Check dependencies,current
+T00032,PRJ001,Access planning,Civil,P015,Farah Singh,2026-03-05,2026-03-19,In progress,11,Medium,,current
+T00033,PRJ001,Access planning,Civil,P014,Chloe Ng,2026-03-20,2026-04-04,In progress,83,Medium,Check dependencies,current
+T00034,PRJ001,Clash resolution,MEP,P016,Anika Chen,2026-03-18,2026-03-30,In progress,21,High,Pending review,current
+T00035,PRJ001,Plantroom layout,MEP,P012,Ivy Santos,2026-03-30,2026-04-11,In progress,24,High,Client input required,current
+T00036,PRJ001,Drainage concept,Civil,P014,Chloe Ng,2026-03-20,2026-04-01,Blocked,69,Medium,Check dependencies,current
+T00037,PRJ001,RAID update,PMO,P006,Grace Santos,2026-03-24,2026-04-04,In progress,90,Critical,,current
+T00038,PRJ001,Riser strategy,MEP,P001,Sofia Ong,2026-03-26,2026-04-15,Not started,0,Low,Client input required,current
+T00039,PRJ001,Plantroom layout,MEP,P001,Sofia Ong,2026-03-10,2026-03-18,In progress,80,Medium,Client input required,current
+T00040,PRJ001,Clash resolution,MEP,P007,Maya Wong,2026-03-23,2026-03-27,In progress,24,Low,,current
+T00041,PRJ001,Embodied carbon calc,Sustainability,P004,Lina Ong,2026-03-09,2026-03-28,In progress,69,Low,,current
+T00042,PRJ001,Foundation concept,Structural,P011,Sofia Singh,2026-03-26,2026-04-05,In progress,31,High,,current
+T00043,PRJ001,Action log hygiene,PMO,P003,Grace Kaur,2026-03-10,2026-03-27,In progress,12,Medium,Check dependencies,current
+T00044,PRJ001,Client presentation deck,Architecture,P002,Aisha Ong,2026-03-05,2026-03-15,Not started,0,Medium,Pending review,current
+T00045,PRJ001,Clash resolution,MEP,P001,Sofia Ong,2026-03-13,2026-04-01,In progress,73,Medium,Check dependencies,current
+T00046,PRJ001,4D link check,Digital,P008,Ivy Chung,2026-03-13,2026-03-28,Done,100,Medium,,current
+T00047,PRJ001,Weekly report,PMO,P006,Grace Santos,2026-03-15,2026-03-30,Not started,0,High,,current
+T00048,PRJ001,Structural coordination,Structural,P011,Sofia Singh,2026-03-14,2026-04-01,In progress,25,High,Client input required,current
+T00049,PRJ001,4D link check,Digital,P008,Ivy Chung,2026-03-10,2026-03-27,In progress,40,Low,Pending review,current
+T00050,PRJ001,Riser strategy,MEP,P001,Sofia Ong,2026-03-29,2026-04-05,Not started,0,Medium,Pending review,current
+T00051,PRJ001,MEP loads,MEP,P018,Rina Ali,2026-03-21,2026-04-07,In progress,40,High,Pending review,current
+T00052,PRJ001,Clash resolution,MEP,P007,Maya Wong,2026-03-16,2026-03-30,In progress,70,Medium,Awaiting info,current
+T00053,PRJ001,Drainage concept,Civil,P015,Farah Singh,2026-04-03,2026-04-14,In progress,66,Medium,Check dependencies,current
+T00054,PRJ001,Model federation,Digital,P017,Chloe Lee,2026-03-08,2026-03-14,In progress,21,Critical,,current
+T00055,PRJ001,Action log hygiene,PMO,P005,Aisha Kaur,2026-03-04,2026-03-19,Blocked,34,High,Awaiting info,current
+T00056,PRJ001,Embodied carbon calc,Sustainability,P004,Lina Ong,2026-03-21,2026-04-03,Blocked,29,Low,Pending review,current
+T00057,PRJ001,Weekly report,PMO,P003,Grace Kaur,2026-03-13,2026-03-19,Blocked,41,High,Check dependencies,current
+T00058,PRJ001,Drainage concept,Civil,P015,Farah Singh,2026-04-02,2026-04-13,Not started,0,Critical,,current
+T00059,PRJ001,Drainage concept,Civil,P015,Farah Singh,2026-03-31,2026-04-15,In progress,90,Medium,Pending review,current
+T00060,PRJ001,Energy model,Sustainability,P004,Lina Ong,2026-04-02,2026-04-13,Blocked,56,Low,Client input required,current
+T00061,PRJ001,Governance pack,PMO,P006,Grace Santos,2026-03-10,2026-03-27,Not started,0,Medium,Client input required,current
+T00062,PRJ001,4D link check,Digital,P008,Ivy Chung,2026-03-26,2026-04-14,In progress,65,Low,,current
+T00063,PRJ001,Cost plan,Cost,P010,Lina Tan,2026-04-01,2026-04-04,Done,100,High,Awaiting info,current
+T00064,PRJ001,Plantroom layout,MEP,P012,Ivy Santos,2026-03-17,2026-03-30,Done,100,High,Client input required,current
+T00065,PRJ001,Action log hygiene,PMO,P003,Grace Kaur,2026-04-03,2026-04-22,In progress,53,Critical,Client input required,current
+T00066,PRJ001,Schematic set,Architecture,P002,Aisha Ong,2026-03-17,2026-04-05,Blocked,67,Medium,,current
+T00067,PRJ001,Riser strategy,MEP,P018,Rina Ali,2026-03-09,2026-03-29,Not started,0,Medium,,current
+T00068,PRJ001,Action log hygiene,PMO,P006,Grace Santos,2026-03-15,2026-03-31,Not started,0,Medium,Check dependencies,current
+T00069,PRJ001,MEP loads,MEP,P016,Anika Chen,2026-03-26,2026-04-03,In progress,7,High,Pending review,current
+T00070,PRJ001,Weekly report,PMO,P005,Aisha Kaur,2026-03-22,2026-04-01,In progress,25,Medium,Awaiting info,current
+T00071,PRJ002,Utilities coordination,Civil,P015,Farah Singh,2026-04-05,2026-04-14,Not started,0,High,Check dependencies,current
+T00072,PRJ002,Plantroom layout,MEP,P007,Maya Wong,2026-03-11,2026-03-22,In progress,24,Critical,,current
+T00073,PRJ002,Action log hygiene,PMO,P006,Grace Santos,2026-03-24,2026-04-10,In progress,47,Low,,current
+T00074,PRJ002,Clash resolution,MEP,P001,Sofia Ong,2026-04-03,2026-04-21,Not started,0,Low,Check dependencies,current
+T00075,PRJ002,Utilities coordination,Civil,P014,Chloe Ng,2026-03-16,2026-04-06,In progress,55,High,Client input required,current
+T00076,PRJ002,Green Mark evidence,Sustainability,P009,Lina Singh,2026-03-12,2026-03-19,Blocked,55,Medium,Pending review,current
+T00077,PRJ002,MEP loads,MEP,P012,Ivy Santos,2026-04-09,2026-04-28,Blocked,18,High,Client input required,current
+T00078,PRJ002,Structural coordination,Structural,P011,Sofia Singh,2026-03-15,2026-03-29,In progress,57,High,Pending review,current
+T00079,PRJ002,BIM execution plan,Digital,P008,Ivy Chung,2026-03-11,2026-03-17,In progress,90,Low,Awaiting info,current
+T00080,PRJ002,Clash resolution,MEP,P016,Anika Chen,2026-03-25,2026-04-02,Done,100,Medium,Awaiting info,current
+T00081,PRJ002,Weekly report,PMO,P006,Grace Santos,2026-03-24,2026-04-08,Not started,0,Critical,Awaiting info,current
+T00082,PRJ002,Riser strategy,MEP,P007,Maya Wong,2026-03-10,2026-03-14,Blocked,59,Medium,Pending review,current
+T00083,PRJ002,RAID update,PMO,P003,Grace Kaur,2026-03-26,2026-04-12,Done,100,Low,Awaiting info,current
+T00084,PRJ002,Governance pack,PMO,P006,Grace Santos,2026-03-19,2026-03-22,In progress,82,Medium,Check dependencies,current
+T00085,PRJ002,Action log hygiene,PMO,P003,Grace Kaur,2026-03-26,2026-04-12,In progress,78,Critical,Client input required,current
+T00086,PRJ002,RAID update,PMO,P003,Grace Kaur,2026-04-02,2026-04-18,In progress,48,High,Check dependencies,current
+T00087,PRJ002,Action log hygiene,PMO,P005,Aisha Kaur,2026-04-06,2026-04-19,In progress,13,Medium,Check dependencies,current
+T00088,PRJ002,Weekly report,PMO,P003,Grace Kaur,2026-03-31,2026-04-13,In progress,63,Medium,Client input required,current
+T00089,PRJ002,Utilities coordination,Civil,P015,Farah Singh,2026-03-18,2026-03-24,Not started,0,Medium,Pending review,current
+T00090,PRJ002,Green Mark evidence,Sustainability,P004,Lina Ong,2026-03-26,2026-04-11,Blocked,63,Medium,Client input required,current
+T00091,PRJ002,Embodied carbon calc,Sustainability,P004,Lina Ong,2026-04-06,2026-04-22,In progress,66,Low,Client input required,current
+T00092,PRJ002,Material declarations,Sustainability,P004,Lina Ong,2026-04-05,2026-04-20,In progress,34,Low,Awaiting info,current
+T00093,PRJ002,Plantroom layout,MEP,P012,Ivy Santos,2026-03-22,2026-03-31,Not started,0,Medium,Check dependencies,current
+T00094,PRJ002,Cost plan,Cost,P010,Lina Tan,2026-04-01,2026-04-08,In progress,21,Low,Pending review,current
+T00095,PRJ002,Action log hygiene,PMO,P006,Grace Santos,2026-04-02,2026-04-15,Blocked,37,Low,Awaiting info,current
+T00096,PRJ002,Riser strategy,MEP,P012,Ivy Santos,2026-04-02,2026-04-20,Not started,0,Low,Pending review,current
+T00097,PRJ002,Riser strategy,MEP,P018,Rina Ali,2026-04-04,2026-04-10,Not started,0,High,Awaiting info,current
+T00098,PRJ002,Site levels,Civil,P015,Farah Singh,2026-04-05,2026-04-25,In progress,8,Low,,current
+T00099,PRJ002,Green Mark evidence,Sustainability,P009,Lina Singh,2026-03-14,2026-04-01,Done,100,High,Client input required,current
+T00100,PRJ002,Material declarations,Sustainability,P009,Lina Singh,2026-03-10,2026-03-13,In progress,29,Critical,,current
+T00101,PRJ002,Concept options,Architecture,P002,Aisha Ong,2026-03-15,2026-03-30,Blocked,62,Critical,Awaiting info,current
+T00102,PRJ002,BIM execution plan,Digital,P017,Chloe Lee,2026-03-21,2026-04-01,In progress,49,Low,Awaiting info,current
+T00103,PRJ002,Action log hygiene,PMO,P006,Grace Santos,2026-04-02,2026-04-19,In progress,69,High,Pending review,current
+T00104,PRJ002,Riser strategy,MEP,P001,Sofia Ong,2026-03-28,2026-04-15,In progress,12,Critical,Client input required,current
+T00105,PRJ002,Schematic set,Architecture,P002,Aisha Ong,2026-04-02,2026-04-10,In progress,44,High,Pending review,current
+T00106,PRJ002,Model federation,Digital,P017,Chloe Lee,2026-04-01,2026-04-05,Done,100,Critical,Client input required,current
+T00107,PRJ002,Energy model,Sustainability,P004,Lina Ong,2026-04-04,2026-04-16,Blocked,23,Low,Pending review,current
+T00108,PRJ002,Frame sizing,Structural,P011,Sofia Singh,2026-03-26,2026-04-05,In progress,80,High,,current
+T00109,PRJ002,Frame sizing,Structural,P011,Sofia Singh,2026-04-07,2026-04-25,In progress,41,High,Awaiting info,current
+T00110,PRJ002,Weekly report,PMO,P005,Aisha Kaur,2026-03-10,2026-03-27,In progress,60,Medium,Client input required,current
+T00111,PRJ002,Weekly report,PMO,P003,Grace Kaur,2026-03-19,2026-03-31,In progress,83,Low,Awaiting info,current
+T00112,PRJ002,Weekly report,PMO,P003,Grace Kaur,2026-03-19,2026-04-02,Done,100,Low,Check dependencies,current
+T00113,PRJ002,Foundation concept,Structural,P011,Sofia Singh,2026-03-18,2026-03-29,In progress,31,Medium,,current
+T00114,PRJ002,Plantroom layout,MEP,P007,Maya Wong,2026-03-22,2026-04-08,Not started,0,Low,Awaiting info,current
+T00115,PRJ002,BIM execution plan,Digital,P008,Ivy Chung,2026-04-09,2026-04-16,In progress,20,High,Awaiting info,current
+T00116,PRJ002,MEP loads,MEP,P001,Sofia Ong,2026-03-18,2026-04-12,In progress,11,Low,Awaiting info,current
+T00117,PRJ002,Frame sizing,Structural,P011,Sofia Singh,2026-04-06,2026-04-09,In progress,61,Medium,,current
+T00118,PRJ002,Site levels,Civil,P014,Chloe Ng,2026-03-12,2026-03-25,Blocked,56,High,Check dependencies,current
+T00119,PRJ002,Plantroom layout,MEP,P001,Sofia Ong,2026-04-08,2026-04-21,In progress,50,Critical,Client input required,current
+T00120,PRJ002,Foundation concept,Structural,P011,Sofia Singh,2026-03-12,2026-03-15,Not started,0,High,Pending review,current
+T00121,PRJ002,Access planning,Civil,P014,Chloe Ng,2026-03-27,2026-04-16,Not started,0,Medium,Client input required,current
+T00122,PRJ002,Material declarations,Sustainability,P009,Lina Singh,2026-04-03,2026-04-07,Blocked,63,High,Pending review,current
+T00123,PRJ002,CDE folder structure,Digital,P017,Chloe Lee,2026-03-14,2026-03-25,Not started,0,High,Awaiting info,current
+T00124,PRJ002,4D link check,Digital,P008,Ivy Chung,2026-04-03,2026-04-06,Done,100,Low,,current
+T00125,PRJ002,MEP loads,MEP,P018,Rina Ali,2026-03-27,2026-04-04,In progress,87,Medium,Awaiting info,current
+T00126,PRJ002,RAID update,PMO,P006,Grace Santos,2026-03-21,2026-03-31,In progress,73,High,Check dependencies,current
+T00127,PRJ002,Drainage concept,Civil,P015,Farah Singh,2026-03-20,2026-03-23,Not started,0,Critical,Pending review,current
+T00128,PRJ002,Schematic set,Architecture,P002,Aisha Ong,2026-03-28,2026-04-12,In progress,58,Low,Pending review,current
+T00129,PRJ002,Riser strategy,MEP,P001,Sofia Ong,2026-04-01,2026-04-22,In progress,17,High,Check dependencies,current
+T00130,PRJ002,Energy model,Sustainability,P009,Lina Singh,2026-04-07,2026-04-25,Not started,0,Critical,Pending review,current
+T00131,PRJ002,Action log hygiene,PMO,P005,Aisha Kaur,2026-03-19,2026-03-24,In progress,72,Medium,Pending review,current
+T00132,PRJ002,Drainage concept,Civil,P015,Farah Singh,2026-03-28,2026-04-01,Done,100,Low,Check dependencies,current
+T00133,PRJ002,Governance pack,PMO,P006,Grace Santos,2026-04-06,2026-04-13,Done,100,Low,Awaiting info,current
+T00134,PRJ002,MEP loads,MEP,P001,Sofia Ong,2026-04-08,2026-04-18,Not started,0,Medium,Check dependencies,current
+T00135,PRJ002,BIM execution plan,Digital,P013,Mei Rahman,2026-03-23,2026-04-05,In progress,60,Low,Client input required,current
+T00136,PRJ002,Model federation,Digital,P008,Ivy Chung,2026-04-04,2026-04-07,Not started,0,Critical,,current
+T00137,PRJ002,Plantroom layout,MEP,P001,Sofia Ong,2026-04-07,2026-04-20,Not started,0,Critical,Awaiting info,current
+T00138,PRJ002,4D link check,Digital,P017,Chloe Lee,2026-03-10,2026-03-19,Not started,0,Low,Client input required,current
+T00139,PRJ002,Clash resolution,MEP,P012,Ivy Santos,2026-04-09,2026-04-14,In progress,37,Low,Pending review,current
+T00140,PRJ002,RAID update,PMO,P006,Grace Santos,2026-03-18,2026-03-29,Not started,0,Low,Check dependencies,current
+T00141,PRJ003,Riser strategy,MEP,P012,Ivy Santos,2026-03-09,2026-03-22,In progress,68,High,Check dependencies,current
+T00142,PRJ003,Material declarations,Sustainability,P009,Lina Singh,2026-03-22,2026-04-07,In progress,59,Critical,Check dependencies,current
+T00143,PRJ003,Drainage concept,Civil,P014,Chloe Ng,2026-04-06,2026-04-09,Not started,0,Critical,Awaiting info,current
+T00144,PRJ003,Plantroom layout,MEP,P007,Maya Wong,2026-03-11,2026-03-15,Done,100,High,Check dependencies,current
+T00145,PRJ003,Riser strategy,MEP,P018,Rina Ali,2026-03-23,2026-03-26,In progress,70,High,Client input required,current
+T00146,PRJ003,Clash resolution,MEP,P018,Rina Ali,2026-03-16,2026-03-31,In progress,18,High,Client input required,current
+T00147,PRJ003,Load paths,Structural,P011,Sofia Singh,2026-03-29,2026-04-18,In progress,88,High,Check dependencies,current
+T00148,PRJ003,Clash resolution,MEP,P012,Ivy Santos,2026-03-27,2026-04-09,Done,100,Medium,Client input required,current
+T00149,PRJ003,Action log hygiene,PMO,P006,Grace Santos,2026-03-16,2026-03-24,Not started,0,Low,Pending review,current
+T00150,PRJ003,CDE folder structure,Digital,P013,Mei Rahman,2026-04-04,2026-04-20,Not started,0,Critical,,current
+T00151,PRJ003,Riser strategy,MEP,P012,Ivy Santos,2026-03-30,2026-04-18,In progress,67,High,Check dependencies,current
+T00152,PRJ003,Variation register,Cost,P010,Lina Tan,2026-03-31,2026-04-06,In progress,71,Medium,,current
+T00153,PRJ003,Action log hygiene,PMO,P005,Aisha Kaur,2026-03-24,2026-04-12,In progress,89,High,Check dependencies,current
+T00154,PRJ003,Embodied carbon calc,Sustainability,P009,Lina Singh,2026-03-26,2026-04-04,Not started,0,Medium,Pending review,current
+T00155,PRJ003,Riser strategy,MEP,P018,Rina Ali,2026-04-07,2026-04-20,In progress,43,Low,Client input required,current
+T00156,PRJ003,Plantroom layout,MEP,P016,Anika Chen,2026-03-15,2026-03-22,In progress,47,Low,Check dependencies,current
+T00157,PRJ003,CDE folder structure,Digital,P013,Mei Rahman,2026-03-10,2026-03-22,Done,100,High,Awaiting info,current
+T00158,PRJ003,Model federation,Digital,P013,Mei Rahman,2026-04-07,2026-04-16,Done,100,Low,Awaiting info,current
+T00159,PRJ003,Load paths,Structural,P011,Sofia Singh,2026-03-11,2026-03-27,In progress,77,Critical,,current
+T00160,PRJ003,Material declarations,Sustainability,P004,Lina Ong,2026-04-07,2026-04-24,Blocked,58,Critical,Awaiting info,current
+T00161,PRJ003,Governance pack,PMO,P003,Grace Kaur,2026-03-21,2026-04-08,Not started,0,Medium,Check dependencies,current
+T00162,PRJ003,Plantroom layout,MEP,P018,Rina Ali,2026-04-07,2026-04-19,In progress,59,Low,,current
+T00163,PRJ003,BIM execution plan,Digital,P008,Ivy Chung,2026-03-27,2026-03-30,Not started,0,Critical,,current
+T00164,PRJ003,Riser strategy,MEP,P007,Maya Wong,2026-03-24,2026-03-28,In progress,63,Critical,,current
+T00165,PRJ003,Action log hygiene,PMO,P005,Aisha Kaur,2026-03-19,2026-03-28,In progress,10,High,Client input required,current
+T00166,PRJ003,Embodied carbon calc,Sustainability,P009,Lina Singh,2026-03-19,2026-04-01,In progress,48,Critical,,current
+T00167,PRJ003,Tender clarification,Cost,P010,Lina Tan,2026-03-16,2026-03-31,Blocked,37,High,Awaiting info,current
+T00168,PRJ003,RAID update,PMO,P005,Aisha Kaur,2026-03-15,2026-04-04,In progress,69,Medium,Pending review,current
+T00169,PRJ003,Foundation concept,Structural,P011,Sofia Singh,2026-03-23,2026-04-10,In progress,50,Low,Check dependencies,current
+T00170,PRJ003,Load paths,Structural,P011,Sofia Singh,2026-03-17,2026-03-27,Blocked,30,Medium,Client input required,current
+T00171,PRJ003,Utilities coordination,Civil,P015,Farah Singh,2026-04-07,2026-04-24,Not started,0,Medium,Check dependencies,current
+T00172,PRJ003,Embodied carbon calc,Sustainability,P004,Lina Ong,2026-03-13,2026-03-18,Blocked,28,Low,Client input required,current
+T00173,PRJ003,Governance pack,PMO,P006,Grace Santos,2026-03-16,2026-03-28,Blocked,25,Medium,Awaiting info,current
+T00174,PRJ003,BIM execution plan,Digital,P017,Chloe Lee,2026-03-23,2026-03-29,Not started,0,Critical,Awaiting info,current
+T00175,PRJ003,Material declarations,Sustainability,P009,Lina Singh,2026-03-30,2026-04-15,Not started,0,Low,Awaiting info,current
+T00176,PRJ003,Access planning,Civil,P015,Farah Singh,2026-04-02,2026-04-15,Done,100,High,Pending review,current
+T00177,PRJ003,Foundation concept,Structural,P011,Sofia Singh,2026-03-13,2026-03-28,In progress,14,Critical,Awaiting info,current
+T00178,PRJ003,Value engineering log,Cost,P010,Lina Tan,2026-03-29,2026-04-18,In progress,35,Medium,Awaiting info,current
+T00179,PRJ003,Access planning,Civil,P014,Chloe Ng,2026-03-30,2026-04-14,Not started,0,Medium,Client input required,current
+T00180,PRJ003,BIM execution plan,Digital,P017,Chloe Lee,2026-03-18,2026-04-05,In progress,73,Medium,Check dependencies,current
+T00181,PRJ003,Energy model,Sustainability,P009,Lina Singh,2026-03-28,2026-04-17,Blocked,22,Critical,Pending review,current
+T00182,PRJ003,CDE folder structure,Digital,P008,Ivy Chung,2026-03-10,2026-03-16,Done,100,Medium,Pending review,current
+T00183,PRJ003,Schematic set,Architecture,P002,Aisha Ong,2026-03-19,2026-04-02,In progress,41,High,Awaiting info,current
+T00184,PRJ003,Energy model,Sustainability,P004,Lina Ong,2026-04-03,2026-04-08,Blocked,17,Low,Awaiting info,current
+T00185,PRJ003,4D link check,Digital,P013,Mei Rahman,2026-03-10,2026-03-14,Not started,0,Critical,Awaiting info,current
+T00186,PRJ003,Access planning,Civil,P014,Chloe Ng,2026-03-11,2026-03-28,Blocked,51,Medium,,current
+T00187,PRJ003,Load paths,Structural,P011,Sofia Singh,2026-04-04,2026-04-22,In progress,43,Low,Awaiting info,current
+T00188,PRJ003,Green Mark evidence,Sustainability,P004,Lina Ong,2026-03-24,2026-04-04,In progress,25,Critical,Awaiting info,current
+T00189,PRJ003,RAID update,PMO,P006,Grace Santos,2026-03-25,2026-04-05,In progress,35,Critical,Client input required,current
+T00190,PRJ003,MEP loads,MEP,P007,Maya Wong,2026-04-07,2026-04-15,Blocked,69,Medium,,current
+T00191,PRJ003,Plantroom layout,MEP,P001,Sofia Ong,2026-04-08,2026-04-12,In progress,83,Medium,,current
+T00192,PRJ003,Weekly report,PMO,P006,Grace Santos,2026-04-04,2026-04-15,Done,100,Low,Pending review,current
+T00193,PRJ003,Embodied carbon calc,Sustainability,P004,Lina Ong,2026-03-30,2026-04-09,In progress,14,Low,Awaiting info,current
+T00194,PRJ003,Action log hygiene,PMO,P003,Grace Kaur,2026-03-12,2026-03-16,Not started,0,High,,current
+T00195,PRJ003,Drainage concept,Civil,P015,Farah Singh,2026-03-09,2026-03-25,Done,100,Low,,current
+T00196,PRJ003,Model federation,Digital,P008,Ivy Chung,2026-04-01,2026-04-20,In progress,29,Medium,Awaiting info,current
+T00197,PRJ003,MEP loads,MEP,P007,Maya Wong,2026-03-30,2026-04-12,Blocked,5,Critical,,current
+T00198,PRJ003,Riser strategy,MEP,P016,Anika Chen,2026-04-07,2026-04-13,Blocked,30,Low,Pending review,current
+T00199,PRJ003,Site levels,Civil,P014,Chloe Ng,2026-03-29,2026-04-12,In progress,73,Medium,Pending review,current
+T00200,PRJ003,Cost plan,Cost,P010,Lina Tan,2026-04-01,2026-04-18,Blocked,26,Critical,Check dependencies,current
+T00201,PRJ003,CDE folder structure,Digital,P017,Chloe Lee,2026-04-01,2026-04-21,In progress,90,Low,Pending review,current
+T00202,PRJ003,Model federation,Digital,P008,Ivy Chung,2026-03-15,2026-04-01,In progress,73,Critical,Check dependencies,current
+T00203,PRJ003,Structural coordination,Structural,P011,Sofia Singh,2026-03-21,2026-03-29,In progress,7,High,,current
+T00204,PRJ003,Variation register,Cost,P010,Lina Tan,2026-03-28,2026-04-05,Done,100,Critical,Client input required,current
+T00205,PRJ003,Variation register,Cost,P010,Lina Tan,2026-03-13,2026-03-31,In progress,20,Critical,Check dependencies,current
+T00206,PRJ003,Coordination review,Architecture,P002,Aisha Ong,2026-03-19,2026-03-25,Done,100,Critical,Client input required,current
+T00207,PRJ003,BIM execution plan,Digital,P008,Ivy Chung,2026-03-15,2026-03-18,In progress,33,High,Pending review,current
+T00208,PRJ003,Action log hygiene,PMO,P005,Aisha Kaur,2026-03-14,2026-03-23,In progress,88,High,Check dependencies,current
+T00209,PRJ003,Foundation concept,Structural,P011,Sofia Singh,2026-04-05,2026-04-13,In progress,11,Medium,,current
+T00210,PRJ003,4D link check,Digital,P008,Ivy Chung,2026-03-27,2026-04-12,Blocked,70,Critical,Awaiting info,current
+T00211,PRJ004,Site levels,Civil,P014,Chloe Ng,2026-03-21,2026-04-03,In progress,47,High,Check dependencies,current
+T00212,PRJ004,BIM execution plan,Digital,P017,Chloe Lee,2026-04-03,2026-04-20,In progress,12,Low,Client input required,current
+T00213,PRJ004,4D link check,Digital,P013,Mei Rahman,2026-03-14,2026-04-03,Done,100,Low,Pending review,current
+T00214,PRJ004,MEP loads,MEP,P016,Anika Chen,2026-03-05,2026-03-16,Not started,0,Low,Check dependencies,current
+T00215,PRJ004,Action log hygiene,PMO,P006,Grace Santos,2026-03-25,2026-04-04,In progress,79,Critical,Client input required,current
+T00216,PRJ004,Site levels,Civil,P014,Chloe Ng,2026-03-30,2026-04-14,In progress,56,High,Awaiting info,current
+T00217,PRJ004,Plantroom layout,MEP,P016,Anika Chen,2026-03-30,2026-04-18,In progress,27,Low,Awaiting info,current
+T00218,PRJ004,Value engineering log,Cost,P010,Lina Tan,2026-03-26,2026-04-07,Done,100,Critical,Pending review,current
+T00219,PRJ004,Action log hygiene,PMO,P006,Grace Santos,2026-03-14,2026-03-31,In progress,27,Critical,,current
+T00220,PRJ004,Energy model,Sustainability,P009,Lina Singh,2026-03-17,2026-03-30,In progress,70,Low,Awaiting info,current
+T00221,PRJ004,Utilities coordination,Civil,P015,Farah Singh,2026-03-25,2026-04-02,Blocked,10,Medium,Pending review,current
+T00222,PRJ004,Clash resolution,MEP,P018,Rina Ali,2026-03-26,2026-04-15,Blocked,14,High,Check dependencies,current
+T00223,PRJ004,Clash resolution,MEP,P012,Ivy Santos,2026-03-21,2026-04-02,Done,100,Critical,,current
+T00224,PRJ004,Coordination review,Architecture,P002,Aisha Ong,2026-03-16,2026-03-30,In progress,41,Low,Client input required,current
+T00225,PRJ004,Site levels,Civil,P014,Chloe Ng,2026-04-03,2026-04-15,Not started,0,Critical,Check dependencies,current
+T00226,PRJ004,Structural coordination,Structural,P011,Sofia Singh,2026-03-17,2026-04-04,Blocked,28,Medium,Client input required,current
+T00227,PRJ004,4D link check,Digital,P017,Chloe Lee,2026-03-26,2026-04-07,Not started,0,Critical,,current
+T00228,PRJ004,BIM execution plan,Digital,P017,Chloe Lee,2026-04-01,2026-04-11,In progress,61,High,Awaiting info,current
+T00229,PRJ004,Weekly report,PMO,P005,Aisha Kaur,2026-03-26,2026-04-05,In progress,46,Critical,Pending review,current
+T00230,PRJ004,Governance pack,PMO,P005,Aisha Kaur,2026-03-24,2026-04-02,Blocked,70,High,Client input required,current
+T00231,PRJ004,MEP loads,MEP,P007,Maya Wong,2026-03-14,2026-03-20,In progress,82,High,,current
+T00232,PRJ004,BIM execution plan,Digital,P017,Chloe Lee,2026-03-08,2026-03-21,Not started,0,Critical,Pending review,current
+T00233,PRJ004,BIM execution plan,Digital,P017,Chloe Lee,2026-03-19,2026-04-08,In progress,14,Critical,,current
+T00234,PRJ004,MEP loads,MEP,P016,Anika Chen,2026-03-14,2026-03-27,Done,100,Medium,Client input required,current
+T00235,PRJ004,Riser strategy,MEP,P007,Maya Wong,2026-03-31,2026-04-20,Blocked,27,Low,Client input required,current
+T00236,PRJ004,Material declarations,Sustainability,P009,Lina Singh,2026-03-16,2026-03-21,Done,100,Low,Check dependencies,current
+T00237,PRJ004,4D link check,Digital,P013,Mei Rahman,2026-03-12,2026-03-16,Blocked,47,High,,current
+T00238,PRJ004,MEP loads,MEP,P016,Anika Chen,2026-03-18,2026-04-04,Done,100,Medium,Pending review,current
+T00239,PRJ004,Plantroom layout,MEP,P007,Maya Wong,2026-03-17,2026-03-28,In progress,34,Low,Check dependencies,current
+T00240,PRJ004,MEP loads,MEP,P007,Maya Wong,2026-03-29,2026-04-09,Not started,0,Low,,current
+T00241,PRJ004,MEP loads,MEP,P012,Ivy Santos,2026-03-18,2026-03-22,Blocked,38,High,Awaiting info,current
+T00242,PRJ004,Frame sizing,Structural,P011,Sofia Singh,2026-03-14,2026-03-19,In progress,5,Critical,,current
+T00243,PRJ004,Site levels,Civil,P015,Farah Singh,2026-03-15,2026-03-21,Done,100,Critical,,current
+T00244,PRJ004,Frame sizing,Structural,P011,Sofia Singh,2026-03-20,2026-03-27,Blocked,37,Critical,Awaiting info,current
+T00245,PRJ004,Riser strategy,MEP,P012,Ivy Santos,2026-03-26,2026-03-29,Done,100,Critical,Check dependencies,current
+T00246,PRJ004,Governance pack,PMO,P006,Grace Santos,2026-03-09,2026-03-16,Not started,0,Low,,current
+T00247,PRJ004,Governance pack,PMO,P003,Grace Kaur,2026-03-29,2026-04-07,Not started,0,High,Pending review,current
+T00248,PRJ004,Clash resolution,MEP,P018,Rina Ali,2026-03-20,2026-03-29,Not started,0,Critical,,current
+T00249,PRJ004,Green Mark evidence,Sustainability,P004,Lina Ong,2026-04-04,2026-04-18,In progress,83,Low,Client input required,current
+T00250,PRJ004,Client presentation deck,Architecture,P002,Aisha Ong,2026-03-10,2026-03-25,In progress,40,Critical,Client input required,current
+T00251,PRJ004,RAID update,PMO,P005,Aisha Kaur,2026-04-03,2026-04-26,In progress,18,Medium,,current
+T00252,PRJ004,Model federation,Digital,P013,Mei Rahman,2026-03-25,2026-03-29,Not started,0,Low,Check dependencies,current
+T00253,PRJ004,Client presentation deck,Architecture,P002,Aisha Ong,2026-03-12,2026-03-27,Blocked,57,High,,current
+T00254,PRJ004,Governance pack,PMO,P005,Aisha Kaur,2026-03-05,2026-03-23,Blocked,17,Medium,Awaiting info,current
+T00255,PRJ004,Model federation,Digital,P017,Chloe Lee,2026-03-24,2026-04-12,In progress,75,Low,,current
+T00256,PRJ004,Plantroom layout,MEP,P001,Sofia Ong,2026-03-21,2026-04-10,In progress,86,Low,Client input required,current
+T00257,PRJ004,Variation register,Cost,P010,Lina Tan,2026-03-17,2026-03-20,In progress,36,Medium,Client input required,current
+T00258,PRJ004,Drainage concept,Civil,P015,Farah Singh,2026-03-08,2026-03-17,In progress,24,High,,current
+T00259,PRJ004,Weekly report,PMO,P003,Grace Kaur,2026-04-01,2026-04-05,In progress,20,High,Pending review,current
+T00260,PRJ004,Governance pack,PMO,P005,Aisha Kaur,2026-03-24,2026-04-06,Blocked,15,Low,,current
+T00261,PRJ004,Green Mark evidence,Sustainability,P004,Lina Ong,2026-03-21,2026-04-05,In progress,62,Low,,current
+T00262,PRJ004,Concept options,Architecture,P002,Aisha Ong,2026-03-26,2026-04-01,Blocked,12,Medium,Client input required,current
+T00263,PRJ004,Variation register,Cost,P010,Lina Tan,2026-03-13,2026-03-20,In progress,48,Low,Pending review,current
+T00264,PRJ004,BIM execution plan,Digital,P013,Mei Rahman,2026-03-10,2026-03-27,Not started,0,High,Awaiting info,current
+T00265,PRJ004,Clash resolution,MEP,P001,Sofia Ong,2026-03-22,2026-03-25,In progress,79,High,,current
+T00266,PRJ004,CDE folder structure,Digital,P008,Ivy Chung,2026-03-30,2026-04-07,In progress,23,High,Check dependencies,current
+T00267,PRJ004,Frame sizing,Structural,P011,Sofia Singh,2026-03-07,2026-03-27,Not started,0,Medium,Client input required,current
+T00268,PRJ004,Schematic set,Architecture,P002,Aisha Ong,2026-04-04,2026-04-20,Done,100,Medium,Awaiting info,current
+T00269,PRJ004,Cost plan,Cost,P010,Lina Tan,2026-03-27,2026-04-07,In progress,25,Critical,Client input required,current
+T00270,PRJ004,Action log hygiene,PMO,P006,Grace Santos,2026-03-29,2026-04-18,In progress,16,Low,Awaiting info,current
+T00271,PRJ004,Green Mark evidence,Sustainability,P009,Lina Singh,2026-03-25,2026-03-30,In progress,60,Low,,current
+T00272,PRJ004,RAID update,PMO,P003,Grace Kaur,2026-03-07,2026-03-21,Not started,0,Critical,Client input required,current
+T00273,PRJ004,Material declarations,Sustainability,P009,Lina Singh,2026-03-10,2026-03-16,In progress,60,Medium,Check dependencies,current
+T00274,PRJ004,Material declarations,Sustainability,P004,Lina Ong,2026-03-15,2026-03-28,Blocked,54,Medium,,current
+T00275,PRJ004,Riser strategy,MEP,P007,Maya Wong,2026-03-26,2026-04-06,In progress,11,Low,,current
+T00276,PRJ004,Action log hygiene,PMO,P006,Grace Santos,2026-03-26,2026-04-06,Not started,0,Low,,current
+T00277,PRJ004,CDE folder structure,Digital,P013,Mei Rahman,2026-03-25,2026-03-30,In progress,38,Low,Pending review,current
+T00278,PRJ004,Riser strategy,MEP,P001,Sofia Ong,2026-04-01,2026-04-08,Done,100,Medium,Awaiting info,current
+T00279,PRJ004,Riser strategy,MEP,P012,Ivy Santos,2026-03-16,2026-03-30,Not started,0,Medium,Pending review,current
+T00280,PRJ004,BIM execution plan,Digital,P013,Mei Rahman,2026-03-12,2026-03-21,Done,100,Medium,Check dependencies,current
