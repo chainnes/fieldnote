@@ -1,0 +1,13 @@
+# Optional Postgres with pgvector. The local desk does not require it.
+# `docker compose up -d` loads sql/schema.sql, including row-level security.
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: fieldnote
+      POSTGRES_PASSWORD: fieldnote
+      POSTGRES_DB: fieldnote
+    ports:
+      - "54329:5432"
+    volumes:
+      - ./sql/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
