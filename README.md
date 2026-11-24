@@ -1,4 +1,6 @@
-# Fieldnote
+# Project Planner Agent
+
+Codename: Fieldnote
 
 Fieldnote is a personal portfolio build by [Charlene Cordero](https://charlenecordero.com). It is based on the public problem statement from the Code Without Barriers (CWB) Hackathon, published with id8nxt: keep a project plan aligned with what was said in meetings and email, and do not change the plan until a person approves. This repository is that exercise on an open-source stack. It is not a hackathon submission and not work for a client.
 
