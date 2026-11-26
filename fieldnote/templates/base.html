@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% block title %}Fieldnote{% endblock %}</title>
-  <meta name="description" content="Fieldnote reads meeting notes and email, checks them against the plan, and waits for a person to approve.">
+  <title>{% block title %}Project Planner Agent{% endblock %}</title>
+  <meta name="description" content="Project Planner Agent reads meeting notes and email, checks them against the plan, and waits for a person to approve.">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect fill='%23b6401e' width='16' height='16'/%3E%3Crect fill='%23e7e1d4' x='3' y='3' width='10' height='2'/%3E%3Crect fill='%23e7e1d4' x='3' y='7' width='7' height='2'/%3E%3Crect fill='%23e7e1d4' x='3' y='11' width='10' height='2'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +14,7 @@
 <body>
   <div class="sheet">
     <header class="mast">
-      <a class="mark" href="/">Fieldnote</a>
+      <a class="mark" href="/">Project Planner Agent</a>
       <p class="by">Charlene Cordero · planning desk</p>
       <nav class="nav">
         <a href="/">Projects</a>
@@ -33,7 +33,7 @@
       {% block body %}{% endblock %}
     </main>
     <footer class="colophon">
-      <p>Fieldnote is a portfolio project by Charlene Cordero. The four projects are fictional, from the public CC0 pack <a href="https://github.com/DoreenSteven/CWB_SJ">DoreenSteven/CWB_SJ</a>. Nothing here is client data.</p>
+      <p>Project Planner Agent is a portfolio project by Charlene Cordero. The four projects are fictional, from the public CC0 pack <a href="https://github.com/DoreenSteven/CWB_SJ">DoreenSteven/CWB_SJ</a>. Nothing here is client data.</p>
       <form method="post" action="/reset" data-busy>
         <button type="submit" class="texty" data-busy="Restoring…" onclick="return confirm('Restore the seed plan and clear this desk’s approvals?')">Restore the seed plan</button>
       </form>

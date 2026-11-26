@@ -1,8 +1,6 @@
 # Project Planner Agent
 
-Codename: Fieldnote
-
-Fieldnote is a personal portfolio build by [Charlene Cordero](https://charlenecordero.com). It is based on the public problem statement from the Code Without Barriers (CWB) Hackathon, published with id8nxt: keep a project plan aligned with what was said in meetings and email, and do not change the plan until a person approves. This repository is that exercise on an open-source stack. It is not a hackathon submission and not work for a client.
+Project Planner Agent is a personal portfolio build by [Charlene Cordero](https://charlenecordero.com). It is based on the public problem statement from the Code Without Barriers (CWB) Hackathon, published with id8nxt: keep a project plan aligned with what was said in meetings and email, and do not change the plan until a person approves. This repository is that exercise on an open-source stack. It is not a hackathon submission and not work for a client.
 
 The sample projects are fictional. They come from the public CC0 pack [DoreenSteven/CWB_SJ](https://github.com/DoreenSteven/CWB_SJ) (projects, people, tasks, dependencies, plan snapshots, meeting notes, and emails). Nothing here is private data. The app runs with no API key.
 
@@ -130,7 +128,7 @@ The planning clock is 25 March 2026, the day of the sample meeting. The desk say
    - **Needs a person** — shift risk register from 31 Mar to 11 Apr. There is no row to move yet.
    - **Needs a person** — Aisha Ong to update “weekly update”. Several rows are titled Weekly report, so none is selected.
 5. **Approve** the CDE status change. The plan row becomes Blocked. The audit records the quote. The other proposals stay off the plan.
-6. On the weekly-update card, either choose **Not this**, or pick one real row (or “A new task”) and **Apply this resolution**. Fieldnote will not choose among the Weekly report rows for you.
+6. On the weekly-update card, either choose **Not this**, or pick one real row (or “A new task”) and **Apply this resolution**. The desk will not choose among the Weekly report rows for you.
 7. Open email **E00002**. Read it. “Client presentation” is linked to `T00044` Client presentation deck and to Sofia Singh, with a review flag, because the wording is close and not identical.
 8. **Audit** shows each approval and refusal. **Restore the seed plan** on the home page puts the pack back and clears the queue.
 
@@ -192,7 +190,7 @@ A full project-planning agent would keep going. This desk does not:
 ## Status / limitations
 
 - Mock mode only lifts lines that match a clear pattern: create a task, shift a date, mark blocked, assign an owner, confirm a tentative owner, or ask who owns something. A live model can read messier prose. It can also misread a sentence it quotes correctly. The quote check is a substring check, not a claim that the interpretation is right.
-- Ambiguous titles stay unresolved. The pack repeats titles (“Weekly report”, “Riser strategy”, and others). Fieldnote will not pick one.
+- Ambiguous titles stay unresolved. The pack repeats titles (“Weekly report”, “Riser strategy”, and others). The desk will not pick one.
 - Task dates in the pack often sit outside the project start and finish. They are shown as published.
 - The master rows match the pack’s `baseline` snapshot. “Snapshot drift” is the disagreement with the `current` snapshot. Approving a change can widen that gap. The snapshot is not a write target.
 - The planning clock defaults to 25 Mar 2026 so “overdue” means something in this dataset. Set `AS_OF_DATE` to move it. It is not the wall clock.
@@ -213,4 +211,4 @@ render.yaml           Render blueprint
 
 ## Data
 
-See `fieldnote/seed/SOURCE.md`. The pack is CC0 1.0 and fictional. Fieldnote is a personal portfolio build by Charlene Cordero, based on the public CWB / id8nxt problem statement.
+See `fieldnote/seed/SOURCE.md`. The pack is CC0 1.0 and fictional. Project Planner Agent is a personal portfolio build by Charlene Cordero, based on the public CWB / id8nxt problem statement.
